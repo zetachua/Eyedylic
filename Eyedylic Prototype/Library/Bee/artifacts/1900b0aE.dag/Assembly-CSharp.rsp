@@ -340,7 +340,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Lowpoly Toon Cat Lite/Demo/Cat_Lite_Demo.cs"
+"Assets/House/_Creepy_Cat/Common Scripts/MouseLook.cs"
+"Assets/House/_Creepy_Cat/Common Scripts/Turn_Move.cs"
 -langversion:8.0
 
 /deterministic
