@@ -15,12 +15,12 @@ C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49562
+50660
 Successfully changed project path to: C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
 C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.09 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 102.37 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.92 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype/Assets
@@ -35,28 +35,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001899 seconds.
+Registered in 0.002058 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.81 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 99.76 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.583 seconds
+- Completed reload, in  1.812 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008558 seconds.
+Registered in 0.009015 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.63 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 92.01 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -68,7 +68,7 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
+- Completed reload, in  1.336 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -80,605 +80,123 @@ System memory in use before: 136.7 MB.
 System memory in use after: 136.9 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4173.
-Total: 2.487100 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.198100 ms MarkObjects: 1.954200 ms  DeleteObjects: 0.052900 ms)
+Total: 2.884800 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.217300 ms MarkObjects: 2.303600 ms  DeleteObjects: 0.065100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Flame_B.mat
-  artifactKey: Guid(0af8ee37f5a7ef04faccc249907942e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Flame_B.mat using Guid(0af8ee37f5a7ef04faccc249907942e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54edffc086461007315ed1e1c53b9ef5') in 0.117290 seconds 
+  path: Assets/House/neusa-frois/textures/Object285Corona_Diffuse.jpeg
+  artifactKey: Guid(c7f5bce4864744e7c98ddd23798e2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Object285Corona_Diffuse.jpeg using Guid(c7f5bce4864744e7c98ddd23798e2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d99255bc8ad915b245a82a500105d6') in 0.117056 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/MediumFlame03.tif
-  artifactKey: Guid(979631d11ddf5254b962f3fb11c00b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/MediumFlame03.tif using Guid(979631d11ddf5254b962f3fb11c00b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5910b50e2b7179c685544d34704d8') in 0.028776 seconds 
+  Time since last request: 0.000238 seconds.
+  path: Assets/House/neusa-frois/textures/Box076Corona_Diffuse.jpeg
+  artifactKey: Guid(f80af7b936aec4602ad724b55d411f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Box076Corona_Diffuse.jpeg using Guid(f80af7b936aec4602ad724b55d411f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2490de61c518130bafdba84b93af8940') in 0.020506 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Fire_A.prefab
-  artifactKey: Guid(9140a95301885724db0d169107b24229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Fire_A.prefab using Guid(9140a95301885724db0d169107b24229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6090bfc2c41a5c9807d9bff02fdb27e') in 0.015355 seconds 
+  Time since last request: 0.000177 seconds.
+  path: Assets/House/neusa-frois/textures/ _72_Corona_Diffuse.jpeg
+  artifactKey: Guid(823331d64453948cf8b3d88fd179062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/ _72_Corona_Diffuse.jpeg using Guid(823331d64453948cf8b3d88fd179062d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad87b73d9b636aa8b8f1548e321e3685') in 0.014984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Fire_B.prefab
-  artifactKey: Guid(bc15c8207aa6cfb459d1dcdbfea1d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Fire_B.prefab using Guid(bc15c8207aa6cfb459d1dcdbfea1d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fecbef3629339b5884267748da52919') in 0.007660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Flame_A.mat
-  artifactKey: Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Fx/Flame_A.mat using Guid(6b187db0c2e012840b1199ccf0893b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd1376c81618c8b9e182bebb7a45481') in 0.072975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.712057 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Fake/360_Pano.prefab
-  artifactKey: Guid(621470eb49824f24786f3760601344ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Fake/360_Pano.prefab using Guid(621470eb49824f24786f3760601344ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4616c1e5b1006580c395f8d1c24dee1') in 0.020606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.455599 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Lightning/P_Light_Surface_01.prefab
-  artifactKey: Guid(92e927b39d3066e40958ac6c7af5a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Lightning/P_Light_Surface_01.prefab using Guid(92e927b39d3066e40958ac6c7af5a9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603e15876cac79f15bee30d0de47f87d') in 0.038707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.785790 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Fern_01.prefab
-  artifactKey: Guid(64c422b65aa5b489997eaade6587a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Fern_01.prefab using Guid(64c422b65aa5b489997eaade6587a686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd8fdaa9c26d3fc463253db42252fed') in 0.021019 seconds 
+  Time since last request: 0.000148 seconds.
+  path: Assets/House/neusa-frois/textures/Box065Corona_Diffuse.jpeg
+  artifactKey: Guid(f01b10c4d59864d2dbf71d1f8c2ab30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Box065Corona_Diffuse.jpeg using Guid(f01b10c4d59864d2dbf71d1f8c2ab30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb98b7e7504a6de2942cf23a460ef12') in 0.018686 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000152 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_03.prefab
-  artifactKey: Guid(eee6afeca8b594fc2ae5b53d83631b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_03.prefab using Guid(eee6afeca8b594fc2ae5b53d83631b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9580ce3e72dbe2753ddae609295d682d') in 0.026863 seconds 
+  path: Assets/House/neusa-frois/textures/ _313_Corona_Diffuse.jpeg
+  artifactKey: Guid(04ede740387dc4c24814097fe6f17fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/ _313_Corona_Diffuse.jpeg using Guid(04ede740387dc4c24814097fe6f17fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571d12785bd330c32612ffc6f592bca5') in 0.050591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_04.prefab
-  artifactKey: Guid(467b5e921d6f649159847f0985f4762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_04.prefab using Guid(467b5e921d6f649159847f0985f4762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b965c7f7686134f5399e3544112def7') in 0.028359 seconds 
+  Time since last request: 0.000231 seconds.
+  path: Assets/House/neusa-frois/textures/Box077Corona_Diffuse.jpeg
+  artifactKey: Guid(cc25c1c199a4a440897b4580de35c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Box077Corona_Diffuse.jpeg using Guid(cc25c1c199a4a440897b4580de35c287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b07a59eff184c18c776a5f5706acc20') in 0.011193 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_05.prefab
-  artifactKey: Guid(e472e18c5aa5641588b21791e3f2aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_05.prefab using Guid(e472e18c5aa5641588b21791e3f2aed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f72c2ba5734385af6b8210db177db1') in 0.018718 seconds 
+  Time since last request: 0.000208 seconds.
+  path: Assets/House/neusa-frois/textures/Object284Corona_Diffuse.jpg
+  artifactKey: Guid(02c92f769b460498398c5ae4e0e3afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Object284Corona_Diffuse.jpg using Guid(02c92f769b460498398c5ae4e0e3afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74afa8e3f851e2cbed280775fd56714') in 0.018683 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_04.prefab
-  artifactKey: Guid(5a251bf92ec3e4fedb658fa7ee418a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_04.prefab using Guid(5a251bf92ec3e4fedb658fa7ee418a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77a986fbf328ef42647c0c033c46524') in 0.019264 seconds 
+  Time since last request: 0.000191 seconds.
+  path: Assets/House/neusa-frois/textures/Line001Corona_Diffuse.jpeg
+  artifactKey: Guid(a97cd0f8e910846a7872ff23e2de01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Line001Corona_Diffuse.jpeg using Guid(a97cd0f8e910846a7872ff23e2de01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb08762aff6779ed5beb4075e53311e') in 0.018890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_02.prefab
-  artifactKey: Guid(6bba2b439b70c492fb0ff337d6050f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_02.prefab using Guid(6bba2b439b70c492fb0ff337d6050f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e5f0d6c6dd91d9d5a18d339352d9c8') in 0.018964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_03.prefab
-  artifactKey: Guid(93cfbdeff79304e0bb0735065308c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_03.prefab using Guid(93cfbdeff79304e0bb0735065308c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762760461f9cf3388af5461ad039b497') in 0.019061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_06.prefab
-  artifactKey: Guid(f4412eb3bb9164f94a2d6c4471cc085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_06.prefab using Guid(f4412eb3bb9164f94a2d6c4471cc085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148f5ceb0715069f3b3fa274da55702e') in 0.020329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_07.prefab
-  artifactKey: Guid(17c705f34da204b8f841ba9ccbd08778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_07.prefab using Guid(17c705f34da204b8f841ba9ccbd08778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a8230d050b37b6caa9cef2f89f2c4a') in 0.019674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01.prefab
-  artifactKey: Guid(11a944b11d3e74f5cb8cf43cfac7770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01.prefab using Guid(11a944b11d3e74f5cb8cf43cfac7770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed24a7c47d9adf040e62b61b08e184') in 0.019130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_02.prefab
-  artifactKey: Guid(2b9ed09b5ba034f5297d89d965b97e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_02.prefab using Guid(2b9ed09b5ba034f5297d89d965b97e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3d91bc1e99059780f644e5ff3d89b0') in 0.019444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_03.prefab
-  artifactKey: Guid(34ad9a40e8b5648e1895a8f9f956ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_03.prefab using Guid(34ad9a40e8b5648e1895a8f9f956ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97775e2385a9f0ab826cefc622b201d8') in 0.018399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Flower_01.prefab
-  artifactKey: Guid(b7ed4fb9b27a143ac8bd10642b810680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Flower_01.prefab using Guid(b7ed4fb9b27a143ac8bd10642b810680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0856d0a49f5be116d0edc2c273ad2ed6') in 0.027058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_01.prefab
-  artifactKey: Guid(85d235ceed7d84b42b3f2fd5ff819910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_01.prefab using Guid(85d235ceed7d84b42b3f2fd5ff819910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aae592393bcdd687e774e6da255db13') in 0.017725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_03.prefab
-  artifactKey: Guid(843f71d824ee34dcd814aab656b177ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_03.prefab using Guid(843f71d824ee34dcd814aab656b177ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0dd8dc2246935ad67cb8c59a10aaae') in 0.021806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_04.prefab
-  artifactKey: Guid(ae227d85ce7ea4ddebd687730454c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_04.prefab using Guid(ae227d85ce7ea4ddebd687730454c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0dfbde425fcb3abd25cc337771693c') in 0.033157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_06.prefab
-  artifactKey: Guid(7d3ba71e395ac40bfbea6fa2611b5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_06.prefab using Guid(7d3ba71e395ac40bfbea6fa2611b5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ca1ad9fcdc9ef012e5dea371a20de4') in 0.018475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_01.prefab
-  artifactKey: Guid(1aff9f23487ab42adb12f0f89810c014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_01.prefab using Guid(1aff9f23487ab42adb12f0f89810c014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f613222bbbee3a80737ca5c6f671c6') in 0.019912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_05.prefab
-  artifactKey: Guid(32a8ccef14f5f4725a6bc169abcde28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_05.prefab using Guid(32a8ccef14f5f4725a6bc169abcde28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1960642b5403fb96db5ffc414225a5') in 0.019574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_07.prefab
-  artifactKey: Guid(24fcc6ae6b289475a9a7c0bce2a4938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_07.prefab using Guid(24fcc6ae6b289475a9a7c0bce2a4938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f95450603c830142004ff6ed159560') in 0.035160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_08.prefab
-  artifactKey: Guid(63d799b22629e4774833279c7809ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_08.prefab using Guid(63d799b22629e4774833279c7809ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8309119fa18903cda64cf13e25c199') in 0.018430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_02.prefab
-  artifactKey: Guid(e62a84fc32a194468b82c28476b22d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_02.prefab using Guid(e62a84fc32a194468b82c28476b22d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db20c3d00e43f6faddfcc72cc06f9024') in 0.019746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Leaf.prefab
-  artifactKey: Guid(9c6caffad69914fe7b7e9efe7a50fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Leaf.prefab using Guid(9c6caffad69914fe7b7e9efe7a50fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1c7b6c55208d51a970ffe320d2065e') in 0.032087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_02.prefab
-  artifactKey: Guid(2fbe4cee70b2d49978869b34628d0ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_02.prefab using Guid(2fbe4cee70b2d49978869b34628d0ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9f0b78acae39467f8d27ca7a81e4c3') in 0.019943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01_B.prefab
-  artifactKey: Guid(bf1777fd4c2b74dcb8c8f52165a05922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01_B.prefab using Guid(bf1777fd4c2b74dcb8c8f52165a05922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52169b83a1725598f6e55b2ead5668f') in 0.021081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_04.prefab
-  artifactKey: Guid(40c1b217ddd664bdcafc8c8a957435ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_04.prefab using Guid(40c1b217ddd664bdcafc8c8a957435ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef728c66f03399c87068602d67fcb425') in 0.304695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_02.prefab
-  artifactKey: Guid(ca8443071bae449a3bf698833c2d6324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_02.prefab using Guid(ca8443071bae449a3bf698833c2d6324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afabe7cbd1c965e73a8ac1ec313348bf') in 0.027640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_01.prefab
-  artifactKey: Guid(3143ff10a0e4d47fab11272fbaa1130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_01.prefab using Guid(3143ff10a0e4d47fab11272fbaa1130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be61d769bb554ab4f0ac5f844b7a1583') in 0.017980 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_08.prefab
-  artifactKey: Guid(de1d8c8e39bce4455955189ac2e54ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_08.prefab using Guid(de1d8c8e39bce4455955189ac2e54ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f40c99fba6a9795ab6bcf13dfc2aa5') in 0.028679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_01.prefab
-  artifactKey: Guid(70c8740e9844f463caa522c6fc46fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_01.prefab using Guid(70c8740e9844f463caa522c6fc46fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe22aafddfb4f1797f2ae06c74b8898') in 0.027269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_09.prefab
-  artifactKey: Guid(570b7a82b65b543c1a7e46e7071a5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_09.prefab using Guid(570b7a82b65b543c1a7e46e7071a5f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda3187dea8c6601c93c9ba4a1506abf') in 0.028954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.916866 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Stairs
-  artifactKey: Guid(8dc0abad3253b8b4ab404f55d6607f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Stairs using Guid(8dc0abad3253b8b4ab404f55d6607f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4370fd4423d48399508c104353dc663') in 0.006341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052566 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Stairs/P_Stair_01.prefab
-  artifactKey: Guid(32f93e90afa71cd44b52a6e6d3de99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Stairs/P_Stair_01.prefab using Guid(32f93e90afa71cd44b52a6e6d3de99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d0f19f0422e03cb3e67e9b67eb26c6') in 0.051063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 482.819278 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/360_Pano.FBX
-  artifactKey: Guid(dfc0adb6c103946499f7d375ec2ba38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/360_Pano.FBX using Guid(dfc0adb6c103946499f7d375ec2ba38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd73c1ee31837895f1583f00cc8037') in 0.109127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_02.FBX
-  artifactKey: Guid(3c24ce74befdd894bb7b59d5b34af148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_02.FBX using Guid(3c24ce74befdd894bb7b59d5b34af148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf564d4d5882adcb576fd15d9fe98900') in 0.037967 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/House/neusa-frois/textures/Object286Corona_Diffuse.jpeg
+  artifactKey: Guid(fd5b44f69b4bb44e1a384589043ea9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Object286Corona_Diffuse.jpeg using Guid(fd5b44f69b4bb44e1a384589043ea9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8f74eee8c5a322cfaef762f1d25a36') in 0.018737 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000245 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_01.FBX
-  artifactKey: Guid(bed7f41bedae16e41a47f1a929948e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_01.FBX using Guid(bed7f41bedae16e41a47f1a929948e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbfad9db2622fb35d154f580e959f37') in 0.019257 seconds 
+  path: Assets/House/neusa-frois/textures/Obj3d66-707242-43-731Corona_Diffuse.jpeg
+  artifactKey: Guid(9ce38a2326f10424cb0afb5125eb14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/neusa-frois/textures/Obj3d66-707242-43-731Corona_Diffuse.jpeg using Guid(9ce38a2326f10424cb0afb5125eb14bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955628e24b057eb0c64ff25deafb4277') in 0.035960 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_01.FBX
-  artifactKey: Guid(260a8d88a378ae0488fcdfa6854ac588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_01.FBX using Guid(260a8d88a378ae0488fcdfa6854ac588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583c1eb12e0265fb3e17b50163d9b26') in 0.058347 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008884 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3726 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.3 MB.
+System memory in use after: 153.5 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4328.
+Total: 3.294100 ms (FindLiveObjects: 0.468200 ms CreateObjectMapping: 0.300700 ms MarkObjects: 2.489000 ms  DeleteObjects: 0.034900 ms)
+
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bed_01.FBX
-  artifactKey: Guid(c1a739756e5a7b142869644a38377083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bed_01.FBX using Guid(c1a739756e5a7b142869644a38377083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48864f27a839aa7fedecb65cfac3e842') in 0.104420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_04.FBX
-  artifactKey: Guid(d08040f7c631bec41995e7c1c7d697fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_04.FBX using Guid(d08040f7c631bec41995e7c1c7d697fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c716b9b780f459db72a8c666c38a335') in 0.045990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_01.FBX
-  artifactKey: Guid(19d851f0f6da56e4c84fd2d60a49d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_01.FBX using Guid(19d851f0f6da56e4c84fd2d60a49d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ce77f1d1fa8e86b074f7d055eeceb8') in 0.029380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_02.FBX
-  artifactKey: Guid(b5375dead2ba2e5459de212e1842c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_02.FBX using Guid(b5375dead2ba2e5459de212e1842c2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b2e746a634f0be35034889234be6c') in 0.034314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_H.FBX
-  artifactKey: Guid(932b5e8e18858544cad0f5376cbcc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_H.FBX using Guid(932b5e8e18858544cad0f5376cbcc945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ff864858433d2c5e787355b0e85e5d') in 0.042542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_01.FBX
-  artifactKey: Guid(e5f264a90a720954cb9325469dbd13d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_01.FBX using Guid(e5f264a90a720954cb9325469dbd13d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cf6fbac8f67b37030af865b1f0e6ae') in 0.038312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_04.FBX
-  artifactKey: Guid(35be84551da921548907dd0da51efcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_04.FBX using Guid(35be84551da921548907dd0da51efcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21c681f40391d5d108d803491c579e8') in 0.058711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_02.FBX
-  artifactKey: Guid(64863092521590249a633417ac4533c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_02.FBX using Guid(64863092521590249a633417ac4533c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dcffa2e23e54c98fc70148ee310d13') in 0.017689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Carpet_01.FBX
-  artifactKey: Guid(24d07662f6c570d4fb39f2656dd77066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Carpet_01.FBX using Guid(24d07662f6c570d4fb39f2656dd77066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6056367269508666771cfd2b1987c0b') in 0.039802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_M.FBX
-  artifactKey: Guid(bf22a95ab55f338419bdb233746802fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_M.FBX using Guid(bf22a95ab55f338419bdb233746802fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c438f4874ca70838d90e2e4783a8a9') in 0.042532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_01.FBX
-  artifactKey: Guid(b49c530fe7d86374dbe3e47a915e6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_01.FBX using Guid(b49c530fe7d86374dbe3e47a915e6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2821d9d4ec909a5d6c08b9a5714189') in 0.030356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_01_B.FBX
-  artifactKey: Guid(c034db8adb77f87478a3bb2bd57e00be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_01_B.FBX using Guid(c034db8adb77f87478a3bb2bd57e00be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ce101255238ace70180b84dc98e98a') in 0.040657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Bed_01.FBX
-  artifactKey: Guid(d5b7b149f74160d419962488c1ba1cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Bed_01.FBX using Guid(d5b7b149f74160d419962488c1ba1cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13265b1d07f265854cf1ddf400b988a2') in 0.074057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_06.FBX
-  artifactKey: Guid(ebc21df95bf51e0468d56c7f3f622682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_06.FBX using Guid(ebc21df95bf51e0468d56c7f3f622682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a60e77fba6f2ae6054148371f54acd') in 0.020541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_E.FBX
-  artifactKey: Guid(433b790dae95ee546a3dd8f0f758c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_E.FBX using Guid(433b790dae95ee546a3dd8f0f758c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998ad5e58a1f941ded3dfc115f05a90a') in 0.042993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_R.FBX
-  artifactKey: Guid(1b20928447dcb2c419301c353ead1c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_R.FBX using Guid(1b20928447dcb2c419301c353ead1c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd9f3c4c6618cfc21dc05fc16c1d62c') in 0.039362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bed_Head_01.FBX
-  artifactKey: Guid(15ecd398ffa096e43b528b58477f61a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bed_Head_01.FBX using Guid(15ecd398ffa096e43b528b58477f61a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5e4e6b6a70cae7b60477492a947344') in 0.053989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_04.FBX
-  artifactKey: Guid(142404104cda1f64da8ca821c2b904a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_04.FBX using Guid(142404104cda1f64da8ca821c2b904a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9ccfdf62076a351b3cabcae0242828') in 0.017018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_09.FBX
-  artifactKey: Guid(83b19ad48dc7444458ec27e2962dc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_09.FBX using Guid(83b19ad48dc7444458ec27e2962dc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ff0b94807ca4943a2bddb12dc09dcd') in 0.020127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_O.FBX
-  artifactKey: Guid(3ddb07e0f36e53c47b250ff91a06e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_O.FBX using Guid(3ddb07e0f36e53c47b250ff91a06e0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b685eb0bb9401433ec60de8994e329') in 0.039788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_U.FBX
-  artifactKey: Guid(897bd21b3ed63cf48a6cd41d26077029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_U.FBX using Guid(897bd21b3ed63cf48a6cd41d26077029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50949d4a419bb8f8edc48f6433f446d') in 0.044216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_J.FBX
-  artifactKey: Guid(c78961b9c3554344bad639d7a339ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_J.FBX using Guid(c78961b9c3554344bad639d7a339ad3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f312da05f78faafec09eab25c4b8d8') in 0.045194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_P.FBX
-  artifactKey: Guid(c8563ea34f64a6b4686f10e95aa6320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_P.FBX using Guid(c8563ea34f64a6b4686f10e95aa6320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba123e2957561d3d9f0f891259a3b45') in 0.039940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_C.FBX
-  artifactKey: Guid(f253d5ea476fb2f4982f419039db57e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_C.FBX using Guid(f253d5ea476fb2f4982f419039db57e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a620534de761cb9b059f14d909954ef0') in 0.040148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_10.FBX
-  artifactKey: Guid(635a8f851816b0c439be7ef4336b86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_10.FBX using Guid(635a8f851816b0c439be7ef4336b86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bac9b3ce0adbee0192e6f98e1b1e478') in 0.017880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_03.FBX
-  artifactKey: Guid(f30c20af264027c429af373080307f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_Strip_03.FBX using Guid(f30c20af264027c429af373080307f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f503d9b0b56ffcb47a0e864ddceac59') in 0.053493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Bed_02.FBX
-  artifactKey: Guid(42e0a5cb2cc83514a8b7790f40df4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Bed_02.FBX using Guid(42e0a5cb2cc83514a8b7790f40df4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66029ac1644df0564ccb34ae27d01207') in 0.076247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_03.FBX
-  artifactKey: Guid(7729e405704b994488c8d7e02cebd580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_03.FBX using Guid(7729e405704b994488c8d7e02cebd580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cf235984b0d4030ef0eb334231ffd3') in 0.020492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_L.FBX
-  artifactKey: Guid(30a47611a0c7e7c4b8c624172dfb7e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_L.FBX using Guid(30a47611a0c7e7c4b8c624172dfb7e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538b011559c5c03b84abcab7fd9ea2f5') in 0.045528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_V.FBX
-  artifactKey: Guid(42795dedeb9857546aa78487cefd54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_V.FBX using Guid(42795dedeb9857546aa78487cefd54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc02a8e1a97f2dc62acbbebf6e739a3') in 0.044545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_N.FBX
-  artifactKey: Guid(d3a16ba6d0f5c9f49a26b621646d86dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_N.FBX using Guid(d3a16ba6d0f5c9f49a26b621646d86dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d053574c874d90505dd34f32076464') in 0.041569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_07.FBX
-  artifactKey: Guid(b2cad54d8c4e09248944393ed698c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_07.FBX using Guid(b2cad54d8c4e09248944393ed698c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf10d1ff468564d37ab745476ea8827') in 0.018661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_03.FBX
-  artifactKey: Guid(c10d7cd1335507b4ab51be7ced077cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_03.FBX using Guid(c10d7cd1335507b4ab51be7ced077cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ba289c231c524125bb3077c8f8bbc6') in 0.057972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_05.FBX
-  artifactKey: Guid(062a3b10c6fd0c649a54f5c89ffd5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_05.FBX using Guid(062a3b10c6fd0c649a54f5c89ffd5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e5f2a955b5fed059dda17deb48c4e6') in 0.020775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_08.FBX
-  artifactKey: Guid(3cd91a37d4b87e941afd98ddded57455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Book_08.FBX using Guid(3cd91a37d4b87e941afd98ddded57455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a9048717bbf6d54e78fe01ab3588e') in 0.023517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_K.FBX
-  artifactKey: Guid(c82b4b59f78442a489a02218ce1d33ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_K.FBX using Guid(c82b4b59f78442a489a02218ce1d33ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c0e15dbda7287eef6f3f33e698b529') in 0.039456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Andirons.FBX
-  artifactKey: Guid(98b0379620ee3fb4c9f4bd82cda9c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Andirons.FBX using Guid(98b0379620ee3fb4c9f4bd82cda9c4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5740826bc0246b322768c37ae07788') in 0.034699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_01.FBX
-  artifactKey: Guid(305949ef6f4dff64d9c8a7ecc77e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_01.FBX using Guid(305949ef6f4dff64d9c8a7ecc77e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd26c05e951edfe51dff1779076597') in 0.092037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_02.FBX
-  artifactKey: Guid(90d3524a99b0c9c488ba3e20755aceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Chair_02.FBX using Guid(90d3524a99b0c9c488ba3e20755aceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece474196f1dae32af3d10e01bd2956') in 0.053632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_G.FBX
-  artifactKey: Guid(de412946fd6bdcd43b41379f90a57009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_G.FBX using Guid(de412946fd6bdcd43b41379f90a57009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02630288bd9096457a36ae2c8830953') in 0.042307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_D.FBX
-  artifactKey: Guid(2d58c691122d32a47bd700efc59b9e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_D.FBX using Guid(2d58c691122d32a47bd700efc59b9e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33689a116e0973695679e60cfbdc2cf') in 0.042469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_A.FBX
-  artifactKey: Guid(9d59413f94457d843825e2e3eb3ee5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_A.FBX using Guid(9d59413f94457d843825e2e3eb3ee5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1048178df28ac6f669d8df5ea1c78a5d') in 0.043973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_X.FBX
-  artifactKey: Guid(ab179c8b331e7214faf1392b5e8bac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_X.FBX using Guid(ab179c8b331e7214faf1392b5e8bac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a2d75278f2960a418ed3d86630a57b') in 0.044590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_T.FBX
-  artifactKey: Guid(a6300815bc61dc141a64546bee077bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_T.FBX using Guid(a6300815bc61dc141a64546bee077bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510b3152a2e4af3450916830086d3928') in 0.036528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_Q.FBX
-  artifactKey: Guid(fa5932febed24fd43ae097c3121b1737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_Q.FBX using Guid(fa5932febed24fd43ae097c3121b1737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b467d4654e3c31d60b6c0d3db8d403be') in 0.035191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_02.FBX
-  artifactKey: Guid(979bb87f2691d944384a97214386f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_02.FBX using Guid(979bb87f2691d944384a97214386f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b561e87b0a45de7bd1e07c1e628c5') in 0.060234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_F.FBX
-  artifactKey: Guid(5ca245baf2e064346a68cef7d0b86e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_F.FBX using Guid(5ca245baf2e064346a68cef7d0b86e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd865b2c6791b32a7af1ad45bf0dffe7') in 0.036696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Balcony_Railing_01.FBX
-  artifactKey: Guid(c300ef97402bdf9439de2a9a1099df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Balcony_Railing_01.FBX using Guid(c300ef97402bdf9439de2a9a1099df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b959fb9a8d664f8dd028b69309f2acf') in 0.044436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ball_01.FBX
-  artifactKey: Guid(09a634183e47ed24e928de9bff89ef01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ball_01.FBX using Guid(09a634183e47ed24e928de9bff89ef01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad694e8e2893b38e46a8816db7e66ef') in 0.036063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_03.FBX
-  artifactKey: Guid(5b0f0a3d2d2551f45ad14cacc248712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Ceiling_03.FBX using Guid(5b0f0a3d2d2551f45ad14cacc248712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2257194d69890bdf2be2bcb8b4001ce') in 0.054368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_02.FBX
-  artifactKey: Guid(cf70e53597dfb754ab4f9043a7d112a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Beam_02.FBX using Guid(cf70e53597dfb754ab4f9043a7d112a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da11fd6fffc5a83fe8d5d6bf7bcdb40b') in 0.026895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_I.FBX
-  artifactKey: Guid(7919aa89ab640094685f4f267215f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_I.FBX using Guid(7919aa89ab640094685f4f267215f740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5d1b20d7310caec089a3fa19607fed') in 0.039013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_W.FBX
-  artifactKey: Guid(5e98ac902d0f14f44875ad37dd393cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_W.FBX using Guid(5e98ac902d0f14f44875ad37dd393cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09dc77e6e580c1b954f4dbb40eb3574') in 0.042119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_03.FBX
-  artifactKey: Guid(69e3146420af64e428dd881d6d74694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Bedroom_Wardrobe_03.FBX using Guid(69e3146420af64e428dd881d6d74694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a241def28980eb95636a58ea1942c29b') in 0.094361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_B.FBX
-  artifactKey: Guid(3f596543b83cd0948ac49fc02a3b5061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_B.FBX using Guid(3f596543b83cd0948ac49fc02a3b5061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d296aa5e18f519b3035d8262adc929') in 0.036862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_S.FBX
-  artifactKey: Guid(dc860487fe492c649b1a836389d70162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Meshes/Child_Cube_S.FBX using Guid(dc860487fe492c649b1a836389d70162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6894ae10bfcf6e7909cefbb7a93179') in 0.038010 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009175 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.402 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4331.
+Total: 3.064700 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.266700 ms MarkObjects: 2.368000 ms  DeleteObjects: 0.025900 ms)
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
