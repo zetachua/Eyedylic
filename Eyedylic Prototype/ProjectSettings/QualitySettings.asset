@@ -40,7 +40,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 7e0ed4fcc17a4234d98df884bf929b11, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Low
@@ -76,7 +76,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 7d70050dccacbb2439f8829c4832e491, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Medium
@@ -112,7 +112,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: af78bd27bb240344594817efdd961f6d, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: High
@@ -148,7 +148,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 353b3d4bc174d794e82a94ed5bed6aec, type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Very High
@@ -220,7 +220,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 9167d7e982b925f45b308b942606ac34, type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 4
