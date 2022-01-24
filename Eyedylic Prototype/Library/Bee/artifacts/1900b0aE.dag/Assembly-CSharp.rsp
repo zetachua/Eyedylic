@@ -533,6 +533,8 @@
 "Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/ColorChanger.cs"
 "Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/Instructions.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"
+"Assets/Scripts/DialogueManager.cs"
+"Assets/Scripts/StorySceneManager.cs"
 -langversion:9.0
 
 /deterministic
