@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     public GameObject CameraXR;
+    public Button TargetButton;
     public int currentMenuIndex = 0;
+    int count = 10;
 
     [System.Serializable]
     public struct DialogueReferences
@@ -31,7 +34,7 @@ public class DialogueManager : MonoBehaviour
     //setActiveMenu(X)
     //set active canvas X  + soundHandler(dialogueAudioX) + highlightHandler(highlightX)\
     //if condition: last canvas element in list and !dialogueAudio.activeSelf, then setActive transitionScene button 
-
+    //if !dialogueAudioX.activeSelf, targetButton remains inactive
     //ResetMenu()
     //set all menus,audios,highlights to inactive
 
@@ -45,8 +48,32 @@ public class DialogueManager : MonoBehaviour
     //HighlightHandler(highlightX)
     //<call function on update> if condition: targetSound.activeSelf >10 seconds, then setActive(true) highlight handler and arrow
 
+    void Start()
+    {
+        //StartCoroutine(SetActiveMenu());
+    }
 
     /*    
+        IEnumerator SetActiveMenu(int X)
+        {
+           dialogueList[X].DialogueCanvas.Alpha(1);
+            yield new return WaitForSeconds(3);
+            dialogueList[X].DialogueAudio.PlayOnAwake(true);
+            yield new return WaitForSeconds(3);
+            dialogueList[X].DialogueAudio.PlayOnAwake(false);
+
+            //TargetButton.SetActive(true);
+            dialogueList[X].TargetAudio.PlayOnAwake(true);
+            while(count>0){
+              //count-=1*Time.Delta;
+              dialogueList[X].Highlight.SetActive(true);
+            }
+
+
+
+
+        } 
+    
         public void ResetMenu()
         {
             //Dialogue Canvases
@@ -58,6 +85,18 @@ public class DialogueManager : MonoBehaviour
                 dialogueList[i].Highlight.SetActive(false);
             }
         }
+
+    public void StopPlaying()
+    {
+        TargetButton.
+        //reference to audio prefab
+
+        dialogueList[i].DialogueCanvas.SetActive(false);
+        dialogueList[i+1].DialogueCanvas.SetActive(true);
+
+    }
+
+
     */
 
 
