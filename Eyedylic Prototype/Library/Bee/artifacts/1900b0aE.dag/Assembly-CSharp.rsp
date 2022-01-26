@@ -536,7 +536,9 @@
 "Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/Instructions.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Scripts/DialogueManager.cs"
-"Assets/Scripts/StorySceneManager.cs"
+"Assets/Scripts/FadeinFadeout.cs"
+"Assets/Scripts/LevelLoader.cs"
+"Assets/Scripts/StartSceneLoader.cs"
 -langversion:9.0
 
 /deterministic
