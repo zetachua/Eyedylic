@@ -7,9 +7,13 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public GameObject CameraXR;
+
+    public GameObject HighlightTarget;
     public Button TargetButton;
     public int currentMenuIndex = 0;
     int count = 10;
+
+    Outline outline;
 
     [System.Serializable]
     public struct DialogueReferences
@@ -18,9 +22,13 @@ public class DialogueManager : MonoBehaviour
         public AudioSource TargetAudio;
         public AudioSource DialogueAudio;
         public GameObject Highlight;
+
     }
     [SerializeField]
     public List<DialogueReferences> dialogueList = new List<DialogueReferences>();
+
+
+    
 
     //LevelLoader()
     //control audio difficulty, filter difficulty
@@ -96,8 +104,25 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-
     */
+
+    public void Highlight()
+    {
+        outline = HighlightTarget.AddComponent<Outline>();
+
+        outline.OutlineMode = Outline.Mode.OutlineAll;
+        outline.OutlineColor = Color.yellow;
+        outline.OutlineWidth = 5f;
+        outline.enabled = true;
+    }
+
+    public void RemoveHighlight()
+    {
+        Destroy(outline);
+    }
+
+
+    
 
 
 }
