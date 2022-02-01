@@ -7,11 +7,11 @@ using DG.Tweening;
 public class FadeinFadeout : MonoBehaviour
 {
     private Tween fadeTween;
-    DialogueManager dM;
+    InternalSceneManager sM;
 
     void Start()
     {
-        dM = GetComponent<DialogueManager>();
+        sM = GetComponent<InternalSceneManager>();
         StartCoroutine(TestFade());
     }
 
@@ -19,8 +19,8 @@ public class FadeinFadeout : MonoBehaviour
     {
         Fade(1f, duration, () =>
         {
-            dM.dialogueList[0].DialogueCanvas.interactable = true;
-            dM.dialogueList[0].DialogueCanvas.blocksRaycasts = true;
+            sM.ToiletSceneList[0].DialogueCanvas.interactable = true;
+            sM.ToiletSceneList[0].DialogueCanvas.blocksRaycasts = true;
         });
     }
 
@@ -28,8 +28,8 @@ public class FadeinFadeout : MonoBehaviour
     {
         Fade(0f, duration, () =>
         {
-            dM.dialogueList[0].DialogueCanvas.interactable = false;
-            dM.dialogueList[0].DialogueCanvas.blocksRaycasts = false;
+            sM.ToiletSceneList[0].DialogueCanvas.interactable = false;
+            sM.ToiletSceneList[0].DialogueCanvas.blocksRaycasts = false;
         });
     }
 
@@ -40,7 +40,7 @@ public class FadeinFadeout : MonoBehaviour
             fadeTween.Kill(false);
         }
 
-        fadeTween = dM.dialogueList[0].DialogueCanvas.DOFade(endValue, duration);
+        fadeTween = sM.ToiletSceneList[0].DialogueCanvas.DOFade(endValue, duration);
         fadeTween.onComplete += onEnd;
     }
 
