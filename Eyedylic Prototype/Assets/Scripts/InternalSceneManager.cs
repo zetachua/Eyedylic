@@ -28,38 +28,34 @@ public class InternalSceneManager : MonoBehaviour
 
     void Start()
     {
-        
-        
-
-        Debug.Log("Hi");
-        for (int InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
-        {
-            StartCoroutine(SetActiveMenu(InternalSceneNumber));
-            //After SetActiveMenu finishes each internal scene, Set InActive the current Canvas 
-            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha=0;
-        }
-
+       StartCoroutine(SetActiveMenu());           
     }
 
-    IEnumerator SetActiveMenu(int InternalSceneNumber)
+    IEnumerator SetActiveMenu()
     {
         Debug.Log("Bye");
-        //Set Canvas Active and Handle the Sound, Highlight, Target
-        ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha=1;
-        yield return new WaitForSeconds(3);
 
-        DialogueAudioHandler(InternalSceneNumber);
-        TargetAudioHandler(InternalSceneNumber);
-        HighlightHandler(InternalSceneNumber);
+        for (int InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
+        {
+            //Set Canvas Active and Handle the Sound, Highlight, Target
+            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha=1;
+            yield return new WaitForSeconds(3);
+
+            DialogueAudioHandler(InternalSceneNumber);
+            TargetAudioHandler(InternalSceneNumber);
+            HighlightHandler(InternalSceneNumber);
+
+            //After SetActiveMenu finishes each internal scene, Set InActive the current Canvas 
+            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 0;
+        }
+
     }
 
     //Dialogue Audio Play
     public void DialogueAudioHandler(int InternalSceneNumber)
     {
-        if (ToiletSceneList[InternalSceneNumber].DialogueAudio != null){
-            ToiletSceneList[InternalSceneNumber].DialogueAudio.Play(0);
+            ToiletSceneList[InternalSceneNumber].DialogueAudio.Play();
             ShowDialogue(ToiletSceneList[InternalSceneNumber].DialogueText, 3);
-        }
     }
 
     //Target Object is set active, Start Target Audio
