@@ -9794,20 +9794,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraXR: {fileID: 746199211}
+  dialoguePrefab: {fileID: 7673560674606191978, guid: ae6b16f7d8f548c4eb0cd5bd461dcf8e, type: 3}
   currentMenuIndex: 0
   ToiletSceneList:
   - DialogueCanvas: {fileID: 393345826}
     TargetAudio: {fileID: 930580660}
     DialogueAudio: {fileID: 7656812702799636967, guid: 90a95e468fe29e046aba96493e412aff, type: 3}
     TargetObject: {fileID: 826531942}
+    DialogueText: Hello this is working
   - DialogueCanvas: {fileID: 1880588994}
     TargetAudio: {fileID: 0}
     DialogueAudio: {fileID: 5962821588458136328, guid: dcd41e9b53d34334286159eb0d70a26f, type: 3}
     TargetObject: {fileID: 0}
+    DialogueText: arsdwf
   - DialogueCanvas: {fileID: 451017852}
     TargetAudio: {fileID: 0}
     DialogueAudio: {fileID: 5962821588458136328, guid: dcd41e9b53d34334286159eb0d70a26f, type: 3}
     TargetObject: {fileID: 0}
+    DialogueText: rsadarsd
 --- !u!1001 &2030726942
 PrefabInstance:
   m_ObjectHideFlags: 0

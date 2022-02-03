@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class InternalSceneManager : MonoBehaviour
 {
     public GameObject CameraXR;
+
+    public GameObject dialoguePrefab;
     public int currentMenuIndex = 0;
     private GameObject TargetObject;
     Outline outline;
@@ -18,6 +20,7 @@ public class InternalSceneManager : MonoBehaviour
         public AudioSource TargetAudio;
         public AudioSource DialogueAudio;
         public GameObject TargetObject;
+        public string DialogueText;
     }
 
     [SerializeField]
@@ -25,6 +28,9 @@ public class InternalSceneManager : MonoBehaviour
 
     void Start()
     {
+        
+        
+
         Debug.Log("Hi");
         for (int InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
         {
@@ -52,6 +58,7 @@ public class InternalSceneManager : MonoBehaviour
     {
         if (ToiletSceneList[InternalSceneNumber].DialogueAudio != null){
             ToiletSceneList[InternalSceneNumber].DialogueAudio.Play(0);
+            ShowDialogue(ToiletSceneList[InternalSceneNumber].DialogueText, 3);
         }
     }
 
@@ -89,6 +96,14 @@ public class InternalSceneManager : MonoBehaviour
     public void RemoveHighlight()
     {
         Destroy(outline);
+    }
+
+    public void ShowDialogue(string Text, float ExitDelay)
+    {
+        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();
+        dialogueBox.text = Text;
+        dialogueBox.exitDelay = ExitDelay;
+
     }
 
 }
