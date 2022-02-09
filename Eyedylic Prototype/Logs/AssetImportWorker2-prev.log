@@ -1,0 +1,239 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62369
+Successfully changed project path to: C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
+C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.52 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   27.21.14.6089
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006310 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.88 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.67.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1257ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (0.6 MB). Loaded Objects now: 4957.
+Memory consumption went from 174.6 MB to 173.9 MB.
+Total: 3.598100 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.361600 ms MarkObjects: 2.515300 ms  DeleteObjects: 0.336900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1245386.249938 seconds.
+  path: Assets/Sound/apple-tritone-ringtone.mp3
+  artifactKey: Guid(b81147e10eb2fcb40b3226859e34a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/apple-tritone-ringtone.mp3 using Guid(b81147e10eb2fcb40b3226859e34a63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2074951ef41f6a43fef1592008c5b4ed') in 0.208493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.973135 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c9679e9fe659be149a0983a773a58506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c9679e9fe659be149a0983a773a58506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af9ce66430039ba106b5aadf58e79c4') in 0.005511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.647023 seconds.
+  path: Assets/Scripts/FadeinFadeout.cs
+  artifactKey: Guid(40da4250bc0c8f54bbe099825385f7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FadeinFadeout.cs using Guid(40da4250bc0c8f54bbe099825385f7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1365e38fe5ec03c99649cfcfd50d421e') in 0.008917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.178218 seconds.
+  path: Assets/Scripts/Eyedylic Backup Scripts
+  artifactKey: Guid(941ca69d31f136f4e835ee64280f4540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Eyedylic Backup Scripts using Guid(941ca69d31f136f4e835ee64280f4540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9884ff7ea71682dc162c5a730c7176') in 0.005632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.637232 seconds.
+  path: Assets/Scripts/Eyedylic Backup Scripts/InternalSceneManager.cs
+  artifactKey: Guid(5ad2f07181c488340b57fcd4a796c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Eyedylic Backup Scripts/InternalSceneManager.cs using Guid(5ad2f07181c488340b57fcd4a796c113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd131e83a7cca74e66c14ff7a2bf56390') in 0.091584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.427808 seconds.
+  path: Assets/Scripts/Eyedylic Backup Scripts/SoundManager.cs
+  artifactKey: Guid(61b41e7299e9ee64cb8bdb81f60c0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Eyedylic Backup Scripts/SoundManager.cs using Guid(61b41e7299e9ee64cb8bdb81f60c0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555cd5c4fc09c292a7b63a80bf47d5d6') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.509702 seconds.
+  path: Assets/Scripts/StartSceneLoader.cs
+  artifactKey: Guid(3ba6b5b0e59ed0c43b2b54b60a57ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartSceneLoader.cs using Guid(3ba6b5b0e59ed0c43b2b54b60a57ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc68127e51640782f594eaa91457987') in 0.006053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.316176 seconds.
+  path: Assets/Scripts/Eyedylic Backup Scripts/ScenesVariables.cs
+  artifactKey: Guid(22883e8a2e3c55e4a8a1bfe1ec07e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Eyedylic Backup Scripts/ScenesVariables.cs using Guid(22883e8a2e3c55e4a8a1bfe1ec07e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dee748b6bf6cbc033ee60fbb713eed4') in 0.005869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.160047 seconds.
+  path: Assets/Scripts/InternalSceneManager.cs
+  artifactKey: Guid(ee87eed86cc4857469b0bd33064a3294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InternalSceneManager.cs using Guid(ee87eed86cc4857469b0bd33064a3294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf875815f14b024aafc4fb6f048d18b') in 0.001667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.393728 seconds.
+  path: Assets/Scripts/TargetTrigger.cs
+  artifactKey: Guid(5e684a6d7aafd9641a589acf1ea9fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetTrigger.cs using Guid(5e684a6d7aafd9641a589acf1ea9fe21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cf2329711986fafac17086f73c5622') in 0.005667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.533376 seconds.
+  path: Assets/Scripts/Eyedylic Backup Scripts/StartSceneLoader.cs
+  artifactKey: Guid(5446199a9d535d047b4d8d5d6866e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Eyedylic Backup Scripts/StartSceneLoader.cs using Guid(5446199a9d535d047b4d8d5d6866e8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360f06d550e39e286e898c70a1ebc773') in 0.001726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.677507 seconds.
+  path: Assets/Scripts/SceneManager.cs
+  artifactKey: Guid(caa3ce3bafa0a4b41a73edc2a65a3c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneManager.cs using Guid(caa3ce3bafa0a4b41a73edc2a65a3c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c7906e06d2f1d2326fb6004b3afa6') in 0.006138 seconds 

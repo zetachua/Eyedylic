@@ -1,115 +1,105 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
-using UnityEngine.UI;
 
 public class InternalSceneManager : MonoBehaviour
 {
-    public GameObject CameraXR;
-
-    public GameObject dialoguePrefab;
-    public int currentMenuIndex = 0;
-    private GameObject TargetObject;
-    Outline outline;
-
     [System.Serializable]
-    public struct SceneReferences
+    public class SceneReferences
     {
         public CanvasGroup DialogueCanvas;
-        public AudioSource TargetAudio;
+        public GameObject TargetAudio;
         public AudioSource DialogueAudio;
         public GameObject TargetObject;
-        public string DialogueText;
+        public GameObject Highlight;
     }
-
     [SerializeField]
     public List<SceneReferences> ToiletSceneList = new List<SceneReferences>();
 
+    Outline outline;
+    bool playTargetAudio = false;
+
     void Start()
     {
-       StartCoroutine(SetActiveMenu());           
+        StartCoroutine(SceneManager());
     }
 
-    IEnumerator SetActiveMenu()
+    IEnumerator SceneManager()
     {
-        Debug.Log("Start");
-
-        for (int InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
+        int InternalSceneNumber;
+        for (InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
         {
-            //Set Canvas Active and Handle the Sound, Highlight, Target
-            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha=1;
-            yield return new WaitForSeconds(3);
-            Debug.Log("3 seconds passsed");
+            switch (InternalSceneNumber)
+            {
+                case 0:
+                    SetCanvasGroupActive(InternalSceneNumber);
+                    yield return new WaitForSeconds(5);
+                    PlayTargetAudio(InternalSceneNumber);
+                    yield return new WaitForSeconds(5);
+                    Highlight(InternalSceneNumber);
+                    yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
+                    RemoveHighlight(InternalSceneNumber);
+                    break;
 
-            DialogueAudioHandler(InternalSceneNumber);
+                case 1:
+                    SetCanvasGroupActive(InternalSceneNumber);
+                    yield return new WaitForSeconds(8);
+                    break;
 
-            yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].DialogueAudio.isPlaying == false);
-            Debug.Log("DoneWaiting");
-            TargetAudioHandler(InternalSceneNumber);
-            Debug.Log("TargetAudioPlaying");
-            HighlightHandler(InternalSceneNumber);
-
-            //After SetActiveMenu finishes each internal scene, Set InActive the current Canvas 
-            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 0;
-        }
-
-    }
-
-    //Dialogue Audio Play
-    public void DialogueAudioHandler(int InternalSceneNumber)
-    {
-        ToiletSceneList[InternalSceneNumber].DialogueAudio.Play();
-        Debug.Log("Dialougue Audio Playing");
-        //ShowDialogue(ToiletSceneList[InternalSceneNumber].DialogueText, 3);
-
-    }
-
-    //Target Object is set active, Start Target Audio
-    //If Target Object is Collided, Stop Target Audio, Set Inactive Target Button,  Set Inactive Highlight on Target Object (SCRIPT)
-    public void TargetAudioHandler(int InternalSceneNumber)
-    {
-        if(ToiletSceneList[InternalSceneNumber].TargetAudio != null)
-        {
-            ToiletSceneList[InternalSceneNumber].TargetAudio.Play();
-            ToiletSceneList[InternalSceneNumber].TargetAudio.loop = true;
+                case 2:
+                    SetCanvasGroupActive(InternalSceneNumber);
+                    yield return new WaitForSeconds(8);
+                    break;
+            }
+            SetCanvasGroupInactive(InternalSceneNumber);
         }
     }
-    
+
+    //Set Canvas Active and Handle the Sound
+    public void SetCanvasGroupActive(int InternalSceneNumber)
+    {
+        ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 1;
+        playTargetAudio = true;
+    }
+
+    //Set Canvas Inactive
+    public void SetCanvasGroupInactive(int InternalSceneNumber)
+    {
+        ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 0;
+    }
+
+    //Play TargetAudio
+    public void PlayTargetAudio(int InternalSceneNumber)
+    {
+        ToiletSceneList[InternalSceneNumber].TargetAudio.SetActive(true);
+        playTargetAudio = false;
+    }
+
+    //On highlight if more than 5 seconds
     public void Highlight(int InternalSceneNumber)
     {
-        outline = ToiletSceneList[InternalSceneNumber].TargetObject.AddComponent<Outline>();
-
-        outline.OutlineMode = Outline.Mode.OutlineAll;
-        outline.OutlineColor = Color.yellow;
-        outline.OutlineWidth = 5f;
-        outline.enabled = true;
+        ToiletSceneList[InternalSceneNumber].Highlight.SetActive(true);
     }
 
-    public void RemoveHighlight()
+    //Set Highlight Inactive once object is found (box collider triggered, set targetaudio to inactive)
+    public void RemoveHighlight(int InternalSceneNumber)
     {
-        Destroy(outline);
+        ToiletSceneList[InternalSceneNumber].Highlight.SetActive(false);
     }
 
-    IEnumerator HighlightHandler(int InternalSceneNumber)
-    {
-        if (ToiletSceneList[InternalSceneNumber].TargetAudio != null)
+    /*    public void Highlight(int InternalSceneNumber)
         {
-            //Highlight Target Object Set Active if >10 seconds and targetAudio is still playing
-            yield return new WaitForSeconds(10);
-            Highlight(InternalSceneNumber);
+            outline = ToiletSceneList[InternalSceneNumber].TargetObject.AddComponent<Outline>();
 
-            yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].TargetAudio.isPlaying == false);
-            RemoveHighlight();
-        }
-    }
+            outline.OutlineMode = Outline.Mode.OutlineAll;
+            outline.OutlineColor = Color.yellow;
+            outline.OutlineWidth = 5f;
+            outline.enabled = true;
+        }*/
 
-    public void ShowDialogue(string Text, float ExitDelay)
-    {
-        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();
-        dialogueBox.text = Text;
-        dialogueBox.exitDelay = ExitDelay;
-
-    }
-
+    /*    public void RemoveHighlight()
+        {
+            Destroy(outline);
+            endScene = true;
+        }*/
 }

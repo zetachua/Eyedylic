@@ -5,18 +5,10 @@ using UnityEngine.Audio;
 
 public class TargetTrigger : MonoBehaviour
 {
-    InternalSceneManager sM;
-    public AudioSource TargetAudioSource;
-
-    void Start()
-    {
-        sM = GetComponent<InternalSceneManager>();
-    }
+    public GameObject TargetAudioSource;
 
     public void OnTriggerEnter(Collider other)
     {
-        TargetAudioSource.Stop();
-        TargetAudioSource.loop=false;
-        sM.RemoveHighlight();
+        TargetAudioSource.SetActive(false);
     }
 }
