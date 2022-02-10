@@ -18,6 +18,8 @@ public class InternalSceneManager : MonoBehaviour
 
     Outline outline;
     bool playTargetAudio = false;
+    GameObject dialoguePrefab;
+    string systemVoice="You have a notification: Project discussion on zoom meeting at 12.00pm, starting in 5 minutes.";
 
     void Start()
     {
@@ -38,11 +40,11 @@ public class InternalSceneManager : MonoBehaviour
                     yield return new WaitForSeconds(5);
                     Highlight(InternalSceneNumber);
                     yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
-                    RemoveHighlight(InternalSceneNumber);
+                    RemoveHighlight();
                     break;
 
                 case 1:
-                    SetCanvasGroupActive(InternalSceneNumber);
+                    ShowDialogue(systemVoice, 0, InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     break;
 
@@ -75,31 +77,27 @@ public class InternalSceneManager : MonoBehaviour
         playTargetAudio = false;
     }
 
-    //On highlight if more than 5 seconds
     public void Highlight(int InternalSceneNumber)
     {
-        ToiletSceneList[InternalSceneNumber].Highlight.SetActive(true);
+        outline = ToiletSceneList[InternalSceneNumber].TargetObject.AddComponent<Outline>();
+
+        outline.OutlineMode = Outline.Mode.OutlineAll;
+        outline.OutlineColor = Color.yellow;
+        outline.OutlineWidth = 5f;
+        outline.enabled = true;
     }
 
-    //Set Highlight Inactive once object is found (box collider triggered, set targetaudio to inactive)
-    public void RemoveHighlight(int InternalSceneNumber)
+    public void RemoveHighlight()
     {
-        ToiletSceneList[InternalSceneNumber].Highlight.SetActive(false);
+        Destroy(outline);
     }
 
-    /*    public void Highlight(int InternalSceneNumber)
-        {
-            outline = ToiletSceneList[InternalSceneNumber].TargetObject.AddComponent<Outline>();
-
-            outline.OutlineMode = Outline.Mode.OutlineAll;
-            outline.OutlineColor = Color.yellow;
-            outline.OutlineWidth = 5f;
-            outline.enabled = true;
-        }*/
-
-    /*    public void RemoveHighlight()
-        {
-            Destroy(outline);
-            endScene = true;
-        }*/
+    IEnumerator ShowDialogue(string Text, float ExitDelay, int InternalSceneNumber)
+    {
+        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();
+        dialogueBox.text = Text;
+        dialogueBox.exitDelay = ExitDelay;
+        yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].DialogueAudio.isPlaying == false);
+        dialogueBox.delete();
+    }
 }

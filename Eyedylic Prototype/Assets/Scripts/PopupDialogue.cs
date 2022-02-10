@@ -41,8 +41,10 @@ public class PopupDialogue : MonoBehaviour
         }
 
         yield return new WaitForSeconds(exitDelay);
+    }
 
+    public void delete()
+    {
         Destroy(dialogueBox);
-
     }
 }
