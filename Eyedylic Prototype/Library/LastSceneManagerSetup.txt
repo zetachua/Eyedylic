@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Sensory Audio Easy.unity
+- path: Assets/Scenes/test_filter.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
