@@ -5069,7 +5069,7 @@ MonoBehaviour:
     TargetObject: {fileID: 1906879481}
     Highlight: {fileID: 1135885243}
   - DialogueCanvas: {fileID: 1880588994}
-    TargetAudio: {fileID: 0}
+    TargetAudio: {fileID: 793206469}
     DialogueAudio: {fileID: 2127068941}
     TargetObject: {fileID: 0}
     Highlight: {fileID: 0}
@@ -5078,6 +5078,7 @@ MonoBehaviour:
     DialogueAudio: {fileID: 511020016}
     TargetObject: {fileID: 0}
     Highlight: {fileID: 0}
+  dialoguePrefab: {fileID: 7673560674606191978, guid: ae6b16f7d8f548c4eb0cd5bd461dcf8e, type: 3}
 --- !u!1 &636673889
 GameObject:
   m_ObjectHideFlags: 0
@@ -5706,6 +5707,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791777493}
   m_CullTransparentMesh: 1
+--- !u!1 &793206469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5962821588458136335, guid: dcd41e9b53d34334286159eb0d70a26f, type: 3}
+  m_PrefabInstance: {fileID: 987021131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &802114783
 PrefabInstance:
   m_ObjectHideFlags: 0

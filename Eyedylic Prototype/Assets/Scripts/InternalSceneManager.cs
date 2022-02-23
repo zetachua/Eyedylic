@@ -18,7 +18,7 @@ public class InternalSceneManager : MonoBehaviour
 
     Outline outline;
     bool playTargetAudio = false;
-    GameObject dialoguePrefab;
+    public GameObject dialoguePrefab;
     string systemVoice="You have a notification: Project discussion on zoom meeting at 12.00pm, starting in 5 minutes.";
 
     void Start()
@@ -37,6 +37,7 @@ public class InternalSceneManager : MonoBehaviour
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(5);
                     PlayTargetAudio(InternalSceneNumber);
+                    
                     yield return new WaitForSeconds(5);
                     Highlight(InternalSceneNumber);
                     yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
@@ -44,7 +45,7 @@ public class InternalSceneManager : MonoBehaviour
                     break;
 
                 case 1:
-                    ShowDialogue(systemVoice, 0, InternalSceneNumber);
+                    StartCoroutine(ShowDialogue(systemVoice, 0, InternalSceneNumber));
                     yield return new WaitForSeconds(8);
                     break;
 
@@ -91,13 +92,15 @@ public class InternalSceneManager : MonoBehaviour
     {
         Destroy(outline);
     }
-
+    //Takes in the text and exit delay as parameter. The internalscenenumber is optional and I'm not sure what you're going to use it for
     IEnumerator ShowDialogue(string Text, float ExitDelay, int InternalSceneNumber)
     {
-        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();
-        dialogueBox.text = Text;
-        dialogueBox.exitDelay = ExitDelay;
-        yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].DialogueAudio.isPlaying == false);
-        dialogueBox.delete();
+        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();//instantiates the dialogue prefab
+        dialogueBox.text = Text; //Sets the text of the dialogue popup
+        dialogueBox.exitDelay = ExitDelay; //Optional parameter to delay the exit time, just set to 0 if unused
+        dialogueBox.StartDialogue(); //Shows the text after the settings are set
+        //yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].DialogueAudio.isPlaying == false); 
+        yield return new WaitForSeconds(10); //Not sure what you want it to wait for, but just add in the delay here
+        dialogueBox.delete(); //Deletes the popup after waiting
     }
 }

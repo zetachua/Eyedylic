@@ -18,7 +18,6 @@ public class PopupDialogue : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
     }
 
     // Update is called once per frame
@@ -27,13 +26,14 @@ public class PopupDialogue : MonoBehaviour
         
     }
 
-    void StartDialogue()
+    public void StartDialogue()
     {
         StartCoroutine(TypeLine());
     }
 
     IEnumerator TypeLine()
     {
+        yield return new WaitForSeconds(1);
         foreach(char c in text.ToCharArray())
         {
             textComponent.text += c;
