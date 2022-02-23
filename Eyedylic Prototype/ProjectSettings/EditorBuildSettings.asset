@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main menu.unity
     guid: 4bbc73546d2b51f42854084095f5f7da
-  - enabled: 1
-    path: Assets/Scenes/Sensory Audio 2Toilet.unity
-    guid: 8cf6fdb7898bbd64f99a095c1e85900a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sensory Audio 1Bath.unity
     guid: 7f490b7667da8b14880a66ab5abccca9
