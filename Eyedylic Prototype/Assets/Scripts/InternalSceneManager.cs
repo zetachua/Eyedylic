@@ -95,7 +95,10 @@ public class InternalSceneManager : MonoBehaviour
     //Takes in the text and exit delay as parameter. The internalscenenumber is optional and I'm not sure what you're going to use it for
     IEnumerator ShowDialogue(string Text, float ExitDelay, int InternalSceneNumber)
     {
-        PopupDialogue dialogueBox = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity).GetComponent<PopupDialogue>();//instantiates the dialogue prefab
+        //GameObject dialogue = Instantiate(dialoguePrefab, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+        GameObject dialogue = Instantiate(dialoguePrefab, GameObject.Find("Main Camera").transform);
+        //dialogue.transform.parent = GameObject.Find("Main Camera").transform;
+        PopupDialogue dialogueBox = dialogue.GetComponent<PopupDialogue>();//instantiates the dialogue prefab
         dialogueBox.text = Text; //Sets the text of the dialogue popup
         dialogueBox.exitDelay = ExitDelay; //Optional parameter to delay the exit time, just set to 0 if unused
         dialogueBox.StartDialogue(); //Shows the text after the settings are set
