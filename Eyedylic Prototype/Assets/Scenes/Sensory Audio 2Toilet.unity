@@ -5078,6 +5078,7 @@ MonoBehaviour:
     DialogueAudio: {fileID: 511020016}
     TargetObject: {fileID: 0}
     Highlight: {fileID: 0}
+  dialoguePrefab: {fileID: 0}
 --- !u!1 &636673889
 GameObject:
   m_ObjectHideFlags: 0
