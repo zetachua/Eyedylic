@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InternalSceneManager : MonoBehaviour
+public class ToiletSceneManager : MonoBehaviour
 {
     [System.Serializable]
     public class SceneReferences
@@ -20,13 +20,14 @@ public class InternalSceneManager : MonoBehaviour
     bool playTargetAudio = false;
     public GameObject dialoguePrefab;
     string systemVoice="You have a notification: Project discussion on zoom meeting at 12.00pm, starting in 5 minutes.";
+    public bool playSystemSound = false;
 
     void Start()
     {
         StartCoroutine(SceneManager());
     }
 
-    IEnumerator SceneManager()
+IEnumerator SceneManager()
     {
         int InternalSceneNumber;
         for (InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
@@ -34,8 +35,9 @@ public class InternalSceneManager : MonoBehaviour
             switch (InternalSceneNumber)
             {
                 case 0:
+                    // find phone scene
                     SetCanvasGroupActive(InternalSceneNumber);
-                    yield return new WaitForSeconds(5);
+                    yield return new WaitForSeconds(8);
                     PlayTargetAudio(InternalSceneNumber);
                     
                     yield return new WaitForSeconds(5);
@@ -45,11 +47,13 @@ public class InternalSceneManager : MonoBehaviour
                     break;
 
                 case 1:
+                    //phone notif scene
                     StartCoroutine(ShowDialogue(systemVoice, 0, InternalSceneNumber));
-                    yield return new WaitForSeconds(8);
+                    yield return new WaitForSeconds(12);
                     break;
 
                 case 2:
+                    // zoom meeting scene
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     break;
@@ -61,14 +65,21 @@ public class InternalSceneManager : MonoBehaviour
     //Set Canvas Active and Handle the Sound
     public void SetCanvasGroupActive(int InternalSceneNumber)
     {
-        ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 1;
-        playTargetAudio = true;
-    }
+        if (ToiletSceneList[InternalSceneNumber].DialogueCanvas != null) {
+            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 1;
+            playTargetAudio = true;
+            Debug.Log("Playing Dialogue Number:" + InternalSceneNumber);
+        }
+
+    } 
 
     //Set Canvas Inactive
     public void SetCanvasGroupInactive(int InternalSceneNumber)
     {
-        ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 0;
+        if (ToiletSceneList[InternalSceneNumber].DialogueCanvas != null)
+        {
+            ToiletSceneList[InternalSceneNumber].DialogueCanvas.alpha = 0;
+        }
     }
 
     //Play TargetAudio
@@ -100,10 +111,12 @@ public class InternalSceneManager : MonoBehaviour
         //dialogue.transform.parent = GameObject.Find("Main Camera").transform;
         PopupDialogue dialogueBox = dialogue.GetComponent<PopupDialogue>();//instantiates the dialogue prefab
         dialogueBox.text = Text; //Sets the text of the dialogue popup
+        ToiletSceneList[InternalSceneNumber].DialogueAudio.Play();
         dialogueBox.exitDelay = ExitDelay; //Optional parameter to delay the exit time, just set to 0 if unused
         dialogueBox.StartDialogue(); //Shows the text after the settings are set
         //yield return new WaitUntil(() => ToiletSceneList[InternalSceneNumber].DialogueAudio.isPlaying == false); 
         yield return new WaitForSeconds(10); //Not sure what you want it to wait for, but just add in the delay here
         dialogueBox.delete(); //Deletes the popup after waiting
     }
+
 }

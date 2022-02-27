@@ -41,7 +41,7 @@ public class Filter : MonoBehaviour
 
     public void applyFilter()
     {
-        if(DRTog == true)
+        if(DRTog == true && Canvas!=null)
         {
             Canvas.SetActive(true);
         }
@@ -51,7 +51,7 @@ public class Filter : MonoBehaviour
         }
 
 
-        if (MacularTog == true)
+        if (MacularTog == true && MacularDegenerationCanvas!=null)
         {
             MacularDegenerationCanvas.SetActive(true);
         }

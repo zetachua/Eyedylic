@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
@@ -18,8 +19,11 @@ public class SoundManager : MonoBehaviour
 
     IEnumerator PlayDialogueAudio()
     {
-        yield return new WaitUntil(() => Canvas.alpha == 1);
-        DialogueAudio.Play();
-        yield return new WaitUntil(() => !DialogueAudio.isPlaying);
+        if(Canvas != null)
+        {
+            yield return new WaitUntil(() => Canvas.alpha == 1);
+            DialogueAudio.Play();
+            yield return new WaitUntil(() => !DialogueAudio.isPlaying);
+        }
     }
 }
