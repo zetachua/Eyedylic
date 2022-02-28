@@ -1,30 +1,23 @@
-Unity Editor version:    2021.2.9f1 (921b45a28ab6)
-Branch:                  2021.2/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.2.1 (Build 21D62)
-Darwin version:          21.3.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2021.2/staging' branch; Version is '2021.2.9f1 (921b45a28ab6) revision 9575237'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MacOS/Unity
+D:\Unity Editors\2021.2.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype
+C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60177
-Successfully changed project path to: /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype
-/Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype
+56111
+Successfully changed project path to: C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
+C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,1867 +47,743 @@ Successfully changed project path to: /Users/rickywinarko/Documents/GitHub/Eyedy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 106.26 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 3.54 ms.
+Refreshing native plugins compatible for Editor in 133.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
 Initialize engine version: 2021.2.9f1 (921b45a28ab6)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Editors/2021.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zeta/OneDrive/Documents/GitHub/Eyedylic/Eyedylic Prototype/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 (high power)
-Metal devices available: 1
-0: Apple M1 (high power)
-Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   27.21.14.6089
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56138
+Mono path[0] = 'D:/Unity Editors/2021.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editors/2021.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Editors/2021.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001694 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 93.24 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
+Register platform support module: D:/Unity Editors/2021.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002351 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 183.25 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.425 seconds
+- Completed reload, in  1.236 seconds
 Domain Reload Profiling:
-	ReloadAssembly (425ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (1236ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (314ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1105ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (65ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (863ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007273 seconds.
+Registered in 0.010464 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 93.77 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.02 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.69.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  1.367 seconds
 Domain Reload Profiling:
-	ReloadAssembly (794ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (680ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (361ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launching external process: /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 5027 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (473.2 KB). Loaded Objects now: 5453.
-Memory consumption went from 310.2 MB to 309.8 MB.
-Total: 2.745375 ms (FindLiveObjects: 0.189917 ms CreateObjectMapping: 0.058958 ms MarkObjects: 2.298542 ms  DeleteObjects: 0.197375 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (153.5 KB). Loaded Objects now: 5450.
+Memory consumption went from 192.6 MB to 192.4 MB.
+Total: 3.702700 ms (FindLiveObjects: 0.517900 ms CreateObjectMapping: 0.546100 ms MarkObjects: 2.485200 ms  DeleteObjects: 0.152500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 184976.608741 seconds.
-  path: Assets/Scripts/ScenesVariables.cs
-  artifactKey: Guid(22883e8a2e3c55e4a8a1bfe1ec07e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScenesVariables.cs using Guid(22883e8a2e3c55e4a8a1bfe1ec07e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d58222d2d050f2f7d1b42240d12c11') in 0.093551 seconds 
+  Time since last request: 93469.706118 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3abf78425e91b8f41a3d6398771146d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3abf78425e91b8f41a3d6398771146d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146d745de8a1803dbd39acf9b0aa8bad') in 0.012757 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.541162 seconds.
-  path: Assets/Scripts/SoundManager.cs
-  artifactKey: Guid(61b41e7299e9ee64cb8bdb81f60c0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SoundManager.cs using Guid(61b41e7299e9ee64cb8bdb81f60c0c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff569b39539a9042b85a41ffffd325b') in 0.001855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.258365 seconds.
-  path: Assets/Scripts/StartButton.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StartButton.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ba54347ff64221698ece4c206a501d') in 0.001400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.473158 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0f89c66fc3c0b1bce675732476f549') in 0.000941 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002624 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x2882c7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.576 seconds
-Domain Reload Profiling:
-	ReloadAssembly (577ms)
-		BeginReloadAssembly (64ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (458ms)
-			LoadAssemblies (38ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (191ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (449.9 KB). Loaded Objects now: 5456.
-Memory consumption went from 303.7 MB to 303.3 MB.
-Total: 2.645792 ms (FindLiveObjects: 0.188875 ms CreateObjectMapping: 0.068084 ms MarkObjects: 2.205666 ms  DeleteObjects: 0.182541 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 410.648227 seconds.
+  Time since last request: 33.878335 seconds.
   path: Assets/Scenes/Sensory Audio 2Toilet.unity
   artifactKey: Guid(787fde2be118543558817649cd723177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 2Toilet.unity using Guid(787fde2be118543558817649cd723177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a05ea57830d5b157fbfda0fd79d2d5') in 0.019175 seconds 
+Start importing Assets/Scenes/Sensory Audio 2Toilet.unity using Guid(787fde2be118543558817649cd723177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138d56d0b48003f942a1baa522d48f8f') in 0.013960 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.398007 seconds.
-  path: Assets/Scenes/Main menu.unity
-  artifactKey: Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main menu.unity using Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a580c785e3836f319ac729af423e85') in 0.002694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.947986 seconds.
-  path: Assets/House/neusa-frois/source/Neusa Frois.fbx
-  artifactKey: Guid(9346665df3ad3493e83713f31386fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/House/neusa-frois/source/Neusa Frois.fbx using Guid(9346665df3ad3493e83713f31386fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36910b51e7183ac3a904d60b45ad6cde') in 1.068051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 136.541524 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd466c2ce88e12a099e60b9b95a8341e1') in 0.001093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.649242 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096986c6c06e4581c73f36a2846a841') in 0.000766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.512158 seconds.
-  path: Assets/Scripts/Filter.cs
-  artifactKey: Guid(d0b673e1477774131ab57bfd49e3ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Filter.cs using Guid(d0b673e1477774131ab57bfd49e3ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de0bc368525fd30a6aff161188671c2') in 0.001580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.227154 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e820fa3bcb29fffb6b0b4cfa822293') in 0.001118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.076090 seconds.
-  path: Assets/Scripts/Settings.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Settings.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357daa91ed04275afd068b500a3727c6') in 0.001007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.676065 seconds.
-  path: Assets/Scripts/Settings.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Settings.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a269ba5175e5b9fde28467db6233f486') in 0.000711 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.937643 seconds.
-  path: Assets/Scripts/MenuSettings.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuSettings.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f5542332c0bc6d070fb42425973140') in 0.001263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.486147 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6732d5044b000f77857d2bd9c8fdea') in 0.000810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.715001 seconds.
-  path: Assets/Scripts/MenuSettings.cs
-  artifactKey: Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MenuSettings.cs using Guid(35dd7162efe4ac24586f676e56dcc3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d147c0b832cdafbc552d777559e8a2') in 0.001032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.505778 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4bb5f66ef23892978d02850f1af82f') in 0.001071 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002653 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Domain Reload Profiling:
-	ReloadAssembly (610ms)
-		BeginReloadAssembly (69ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (39ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (199ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (449.9 KB). Loaded Objects now: 5502.
-Memory consumption went from 313.3 MB to 312.8 MB.
-Total: 2.889208 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.062042 ms MarkObjects: 2.466250 ms  DeleteObjects: 0.172875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002816 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
-Domain Reload Profiling:
-	ReloadAssembly (598ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.0 KB). Loaded Objects now: 5505.
-Memory consumption went from 313.5 MB to 313.0 MB.
-Total: 2.566875 ms (FindLiveObjects: 0.208875 ms CreateObjectMapping: 0.060583 ms MarkObjects: 2.128000 ms  DeleteObjects: 0.168833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002783 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.595 seconds
-Domain Reload Profiling:
-	ReloadAssembly (595ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (472ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (449.9 KB). Loaded Objects now: 5508.
-Memory consumption went from 313.7 MB to 313.3 MB.
-Total: 2.736959 ms (FindLiveObjects: 0.206833 ms CreateObjectMapping: 0.065334 ms MarkObjects: 2.266917 ms  DeleteObjects: 0.197000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002721 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Domain Reload Profiling:
-	ReloadAssembly (603ms)
-		BeginReloadAssembly (69ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (200ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5511.
-Memory consumption went from 313.8 MB to 313.3 MB.
-Total: 2.792875 ms (FindLiveObjects: 0.180584 ms CreateObjectMapping: 0.060167 ms MarkObjects: 2.299416 ms  DeleteObjects: 0.251583 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 294.206814 seconds.
-  path: Assets/Scripts/Filter.cs
-  artifactKey: Guid(d0b673e1477774131ab57bfd49e3ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Filter.cs using Guid(d0b673e1477774131ab57bfd49e3ac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa82d8a445513cce335583d2e0fd759') in 0.008439 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002772 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Domain Reload Profiling:
-	ReloadAssembly (605ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (199ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.0 KB). Loaded Objects now: 5514.
-Memory consumption went from 314.2 MB to 313.8 MB.
-Total: 2.593292 ms (FindLiveObjects: 0.159750 ms CreateObjectMapping: 0.067625 ms MarkObjects: 2.183084 ms  DeleteObjects: 0.182041 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002706 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.33 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.625 seconds
-Domain Reload Profiling:
-	ReloadAssembly (625ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (30ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (209ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5517.
-Memory consumption went from 314.4 MB to 314.0 MB.
-Total: 2.987375 ms (FindLiveObjects: 0.253291 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.436042 ms  DeleteObjects: 0.231292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 137.751528 seconds.
-  path: Assets/Scenes/Main menu.unity
-  artifactKey: Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main menu.unity using Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc4da89937bbfd22ce2aed4dc2532a') in 0.018516 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002339 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
-Domain Reload Profiling:
-	ReloadAssembly (599ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.0 KB). Loaded Objects now: 5520.
-Memory consumption went from 314.6 MB to 314.2 MB.
-Total: 2.536542 ms (FindLiveObjects: 0.177709 ms CreateObjectMapping: 0.058750 ms MarkObjects: 2.119459 ms  DeleteObjects: 0.180042 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002777 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Domain Reload Profiling:
-	ReloadAssembly (605ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (480ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (203ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5523.
-Memory consumption went from 314.8 MB to 314.4 MB.
-Total: 2.633125 ms (FindLiveObjects: 0.189167 ms CreateObjectMapping: 0.059375 ms MarkObjects: 2.214500 ms  DeleteObjects: 0.169209 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002789 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Domain Reload Profiling:
-	ReloadAssembly (604ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.0 KB). Loaded Objects now: 5526.
-Memory consumption went from 314.9 MB to 314.4 MB.
-Total: 2.593917 ms (FindLiveObjects: 0.174625 ms CreateObjectMapping: 0.069042 ms MarkObjects: 2.140583 ms  DeleteObjects: 0.208875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002600 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (203ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5529.
-Memory consumption went from 315.3 MB to 314.9 MB.
-Total: 2.659417 ms (FindLiveObjects: 0.212917 ms CreateObjectMapping: 0.060750 ms MarkObjects: 2.183791 ms  DeleteObjects: 0.201792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 57.417701 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eba7221cf3d804b575cacbce9bb8870') in 0.007742 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002341 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.603 seconds
-Domain Reload Profiling:
-	ReloadAssembly (603ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.3 KB). Loaded Objects now: 5532.
-Memory consumption went from 315.6 MB to 315.1 MB.
-Total: 2.731209 ms (FindLiveObjects: 0.185458 ms CreateObjectMapping: 0.061292 ms MarkObjects: 2.269125 ms  DeleteObjects: 0.214458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002678 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
-Domain Reload Profiling:
-	ReloadAssembly (605ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (481ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (442.0 KB). Loaded Objects now: 5535.
-Memory consumption went from 315.8 MB to 315.4 MB.
-Total: 2.734375 ms (FindLiveObjects: 0.211959 ms CreateObjectMapping: 0.064334 ms MarkObjects: 2.273750 ms  DeleteObjects: 0.183500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.749121 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571372d65c0f876ba0950e76fe9068de') in 0.005725 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002540 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
-Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (204ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (449.8 KB). Loaded Objects now: 5538.
-Memory consumption went from 316.1 MB to 315.6 MB.
-Total: 2.801000 ms (FindLiveObjects: 0.195709 ms CreateObjectMapping: 0.062208 ms MarkObjects: 2.327250 ms  DeleteObjects: 0.213250 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002835 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
-Domain Reload Profiling:
-	ReloadAssembly (602ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (478ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5541.
-Memory consumption went from 316.1 MB to 315.6 MB.
-Total: 2.670417 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.198084 ms  DeleteObjects: 0.211875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002694 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5544.
-Memory consumption went from 316.5 MB to 316.1 MB.
-Total: 2.797209 ms (FindLiveObjects: 0.236167 ms CreateObjectMapping: 0.065708 ms MarkObjects: 2.272792 ms  DeleteObjects: 0.221375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 39.900968 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51fc2df57c5463005c56d1b0b8fa9d5') in 0.005382 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002815 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (204ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.3 KB). Loaded Objects now: 5547.
-Memory consumption went from 316.8 MB to 316.3 MB.
-Total: 2.975500 ms (FindLiveObjects: 0.194792 ms CreateObjectMapping: 0.069916 ms MarkObjects: 2.435417 ms  DeleteObjects: 0.274375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002533 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.608 seconds
-Domain Reload Profiling:
-	ReloadAssembly (609ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5550.
-Memory consumption went from 317.0 MB to 316.6 MB.
-Total: 2.734916 ms (FindLiveObjects: 0.205209 ms CreateObjectMapping: 0.065667 ms MarkObjects: 2.218667 ms  DeleteObjects: 0.242959 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 76.008255 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath.unity
-  artifactKey: Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath.unity using Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe164e4eacbd509222f0469a7bdb25d') in 0.015941 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002724 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.29 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Domain Reload Profiling:
-	ReloadAssembly (622ms)
-		BeginReloadAssembly (65ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (209ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5553.
-Memory consumption went from 317.2 MB to 316.8 MB.
-Total: 2.831500 ms (FindLiveObjects: 0.213959 ms CreateObjectMapping: 0.067083 ms MarkObjects: 2.323208 ms  DeleteObjects: 0.226625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 39.449612 seconds.
-  path: Assets/Scenes/Main menu.unity
-  artifactKey: Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main menu.unity using Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e31063ffce1eed17298813a17e92ef') in 0.014621 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002518 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (481ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5556.
-Memory consumption went from 317.3 MB to 316.8 MB.
-Total: 2.747292 ms (FindLiveObjects: 0.191459 ms CreateObjectMapping: 0.061541 ms MarkObjects: 2.279042 ms  DeleteObjects: 0.214292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 20.431027 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath.unity
-  artifactKey: Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath.unity using Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6f4c1b47bb741fc63f75a4b00066fc') in 0.017861 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002305 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Domain Reload Profiling:
-	ReloadAssembly (610ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5559.
-Memory consumption went from 317.7 MB to 317.3 MB.
-Total: 2.698333 ms (FindLiveObjects: 0.203167 ms CreateObjectMapping: 0.062458 ms MarkObjects: 2.174000 ms  DeleteObjects: 0.257833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 72.009585 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath.unity
-  artifactKey: Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath.unity using Guid(7f490b7667da8b14880a66ab5abccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f2f4df7cd35325ea6266c2223419dc') in 0.018405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.550793 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath 1.unity
-  artifactKey: Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath 1.unity using Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca502439898dbc1483375c89dd359e9') in 0.001384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.444358 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath 2.unity
-  artifactKey: Guid(71527b4c6dc2f4dfdaf2c03687dd685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath 2.unity using Guid(71527b4c6dc2f4dfdaf2c03687dd685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9285e1abf8e0ef9115a6335909f5530') in 0.001237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.685465 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath 3.unity
-  artifactKey: Guid(e1f8c580d39444e6a8e774db165a72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath 3.unity using Guid(e1f8c580d39444e6a8e774db165a72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa268dcf351cea79a98852650eb062e') in 0.001273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.370786 seconds.
-  path: Assets/Scenes/Sensory Audio 1Bath 4.unity
-  artifactKey: Guid(f561f3248b6db4440882aaa624e7e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 1Bath 4.unity using Guid(f561f3248b6db4440882aaa624e7e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc14e0c03b0a8e3a39053a694e181e') in 0.001426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.891398 seconds.
-  path: Assets/Scenes/Sensory Audio 2Toilet.unity
-  artifactKey: Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 2Toilet.unity using Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1adae1ef2069f65ea78cf2b0af44f18') in 0.000790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.452091 seconds.
+  Time since last request: 26.806316 seconds.
   path: Assets/Scenes/Sensory Audio 3Livingroom.unity
-  artifactKey: Guid(e1f8c580d39444e6a8e774db165a72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 3Livingroom.unity using Guid(e1f8c580d39444e6a8e774db165a72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecd48488dc957aafd27d3e2bf898901') in 0.001085 seconds 
+  artifactKey: Guid(5c59e43cb50c64a97a2b9ea58ca0d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 3Livingroom.unity using Guid(5c59e43cb50c64a97a2b9ea58ca0d713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d1b3d16bc0618f402c6e86d197143b') in 0.008504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.215397 seconds.
-  path: Assets/Scenes/Sensory Audio 4Rain.unity
-  artifactKey: Guid(71527b4c6dc2f4dfdaf2c03687dd685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 4Rain.unity using Guid(71527b4c6dc2f4dfdaf2c03687dd685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c59beb89ec2737d872459a5c99bae') in 0.001253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.073661 seconds.
+  Time since last request: 0.360661 seconds.
   path: Assets/Scenes/Sensory Audio 5Zoom.unity
-  artifactKey: Guid(f561f3248b6db4440882aaa624e7e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 5Zoom.unity using Guid(f561f3248b6db4440882aaa624e7e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a7c98b82a598a7b68cbaef6f90ed46') in 0.001051 seconds 
+  artifactKey: Guid(76ef412b0bf174dada8664764d5b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 5Zoom.unity using Guid(76ef412b0bf174dada8664764d5b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5f3c4e2c7f8574bb627935e57e2f9b') in 0.006103 seconds 
 ========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.12 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (450.7 KB). Loaded Objects now: 5559.
-Memory consumption went from 222.0 MB to 221.5 MB.
-Total: 5.590250 ms (FindLiveObjects: 0.221292 ms CreateObjectMapping: 0.065458 ms MarkObjects: 5.057375 ms  DeleteObjects: 0.245375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.87 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (451.0 KB). Loaded Objects now: 5559.
-Memory consumption went from 222.0 MB to 221.5 MB.
-Total: 8.266167 ms (FindLiveObjects: 0.421334 ms CreateObjectMapping: 0.068500 ms MarkObjects: 7.518375 ms  DeleteObjects: 0.257167 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.709086 seconds.
+  path: Assets/Scenes/Sensory Audio 4Rain.unity
+  artifactKey: Guid(9df3804f3338e40d999f91ec9354593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 4Rain.unity using Guid(9df3804f3338e40d999f91ec9354593d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c56cc381ed611912d505dc185cefd9') in 0.005726 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002984 seconds.
+Registered in 0.010419 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
+- Completed reload, in  0.961 seconds
 Domain Reload Profiling:
-	ReloadAssembly (681ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (503ms)
-			LoadAssemblies (38ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (237ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5562.
-Memory consumption went from 318.5 MB to 318.0 MB.
-Total: 2.855666 ms (FindLiveObjects: 0.201958 ms CreateObjectMapping: 0.067834 ms MarkObjects: 2.362375 ms  DeleteObjects: 0.222625 ms)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4895 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (121.0 KB). Loaded Objects now: 5453.
+Memory consumption went from 181.7 MB to 181.6 MB.
+Total: 3.534500 ms (FindLiveObjects: 0.468200 ms CreateObjectMapping: 0.517100 ms MarkObjects: 2.426700 ms  DeleteObjects: 0.121300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002771 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.26 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.634 seconds
-Domain Reload Profiling:
-	ReloadAssembly (634ms)
-		BeginReloadAssembly (66ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (510ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (202ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.2 KB). Loaded Objects now: 5565.
-Memory consumption went from 318.7 MB to 318.3 MB.
-Total: 3.072042 ms (FindLiveObjects: 0.233208 ms CreateObjectMapping: 0.078250 ms MarkObjects: 2.517625 ms  DeleteObjects: 0.239166 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 612.340695 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02176bb0c1d25a08359cb345e0178ab8') in 0.005989 seconds 
+  Time since last request: 77.886604 seconds.
+  path: Assets/Scenes/Main menu.unity
+  artifactKey: Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main menu.unity using Guid(4bbc73546d2b51f42854084095f5f7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb76b3f1a3169a613c519f762cbf55f') in 0.022265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.001727 seconds.
+  path: Assets/Scenes/Sensory Audio 2Toilet.unity
+  artifactKey: Guid(787fde2be118543558817649cd723177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 2Toilet.unity using Guid(787fde2be118543558817649cd723177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef0b8734bbb94d4ce8de819fff4bb67') in 0.005642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.759740 seconds.
+  path: Assets/Fonts/Lato-Black SDF.asset
+  artifactKey: Guid(b32bc86f4711f2b448a246f579d27934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato-Black SDF.asset using Guid(b32bc86f4711f2b448a246f579d27934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4387e2d73102691b314351946f009f') in 0.983179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/Lato-Regular.ttf
+  artifactKey: Guid(d48f67db66e1ffe40be45785ed045737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato-Regular.ttf using Guid(d48f67db66e1ffe40be45785ed045737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd110bedb32e0439ae485fce5efc06f3') in 0.017536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fonts/Lato-Bold.ttf
+  artifactKey: Guid(e26d641de576b2841aa160d901212930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato-Bold.ttf using Guid(e26d641de576b2841aa160d901212930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad62138a7f93439c5bbfe5526d2ef4b') in 0.018404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fonts/Lato-Light.ttf
+  artifactKey: Guid(df6b9e95990ee224e9d479821fa576a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato-Light.ttf using Guid(df6b9e95990ee224e9d479821fa576a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5010141c5cd678f8b6ee21bc9d1434') in 0.018609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fonts/Lato-Bold SDF.asset
+  artifactKey: Guid(f61c2ac6eb8958f4a87100dac127d03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Lato-Bold SDF.asset using Guid(f61c2ac6eb8958f4a87100dac127d03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dc37b74c55ad962e64c4ae30165997') in 0.018380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.897681 seconds.
+  path: Assets/House/_Creepy_Cat
+  artifactKey: Guid(9374594b59606b34dbee2880949b4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat using Guid(9374594b59606b34dbee2880949b4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36d4fab68e23ace12629a74ba9a1eba') in 0.005060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822121 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1
+  artifactKey: Guid(53c3a028c01a9d94a8731cfca20de77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1 using Guid(53c3a028c01a9d94a8731cfca20de77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c1d4a7b7817133fc6de7e10d34fc3') in 0.005449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091106 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/FBXImporter.preset
+  artifactKey: Guid(92cc136f2f948d84db4434990821a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/FBXImporter.preset using Guid(92cc136f2f948d84db4434990821a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260b0caf18f091918c386cd33412b5c8') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.788241 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Living_Room/P_Chair_01.prefab
+  artifactKey: Guid(2fd626d5aba350847b90da9a33936db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Living_Room/P_Chair_01.prefab using Guid(2fd626d5aba350847b90da9a33936db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cb0941cf27b024c66952cf2b8bce52') in 0.736304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.083782 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Desktop_01.prefab
+  artifactKey: Guid(50568a0db5283b1438ef35a3293fcbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Desktop_01.prefab using Guid(50568a0db5283b1438ef35a3293fcbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce38a5cb4e64775ad52af933976cac6d') in 0.329245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Doc_Box_02.prefab
+  artifactKey: Guid(b737a52e8188a45438bef7bf2ce22116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Doc_Box_02.prefab using Guid(b737a52e8188a45438bef7bf2ce22116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b0ea21faa3e7836538f704459f5777') in 0.022623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Doc_Box_05.prefab
+  artifactKey: Guid(1c7fd823403c3804492ad91c8979b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Others/P_Doc_Box_05.prefab using Guid(1c7fd823403c3804492ad91c8979b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9f41ae672339b7f429ed45e150c0b6') in 0.026456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.116246 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Paint/P_Paint_01_B.prefab
+  artifactKey: Guid(6cd0584a1ef93b343a8386bf15ab54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Paint/P_Paint_01_B.prefab using Guid(6cd0584a1ef93b343a8386bf15ab54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb857cc5e7c0c706b012adc3b7a0a12') in 0.235087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.189213 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Tech/P_Keyboard_01.prefab
+  artifactKey: Guid(1080191f230526644a4aeff6fca44081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Tech/P_Keyboard_01.prefab using Guid(1080191f230526644a4aeff6fca44081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94417d9f0abc397beecac369c437f441') in 0.032493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Tech/P_TV_Led_01.prefab
+  artifactKey: Guid(a57c1ed472d15d046b0e38559833dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Tech/P_TV_Led_01.prefab using Guid(a57c1ed472d15d046b0e38559833dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d556949514337e8e72cc3033229b80') in 0.094171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.287017 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bathroom/P_Shower_01.prefab
+  artifactKey: Guid(74c8198337ad28e4a8fd6e2b467a5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bathroom/P_Shower_01.prefab using Guid(74c8198337ad28e4a8fd6e2b467a5b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d2e205e779992fde192e8b438402a9') in 0.385406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.371883 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bed_Head_01.prefab
+  artifactKey: Guid(558cd1f09b1157940969382ed0932039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bed_Head_01.prefab using Guid(558cd1f09b1157940969382ed0932039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4477bf5cf9ce279392ab5d57bf4695') in 0.072882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bedroom_Wardrobe_02.prefab
+  artifactKey: Guid(c6fb3094d2354a34eb9c4079ea8666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bedroom_Wardrobe_02.prefab using Guid(c6fb3094d2354a34eb9c4079ea8666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e669e5f934b3e39a1e2014a2d6e730') in 0.045332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bedroom_Wardrobe_03.prefab
+  artifactKey: Guid(2ccda6b8f7f0de64cb9ae95f5fe8ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Bedroom/P_Bedroom_Wardrobe_03.prefab using Guid(2ccda6b8f7f0de64cb9ae95f5fe8ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154695de527fd3b0af7918b1cbb7d664') in 0.040893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.699902 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/Books_Set_02.prefab
+  artifactKey: Guid(886ec8996be073d43a7c9f476bc74d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/Books_Set_02.prefab using Guid(886ec8996be073d43a7c9f476bc74d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699c5908afbbc25df3c5558cfb6bf3cb') in 0.022998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_04.prefab
+  artifactKey: Guid(fb58c4277f0bc7748b1ca25e087b440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_04.prefab using Guid(fb58c4277f0bc7748b1ca25e087b440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ccfd1c1c48f6e8a26e0e941250f495') in 0.022076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/Books_Set_06.prefab
+  artifactKey: Guid(bb6544bba9f302841ad66cc8bbea19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/Books_Set_06.prefab using Guid(bb6544bba9f302841ad66cc8bbea19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0df8087b02fc47e36d280078221d79f') in 0.031997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_09.prefab
+  artifactKey: Guid(4c951a175a330de4f982c21e9ba90738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_09.prefab using Guid(4c951a175a330de4f982c21e9ba90738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458e24abdbd2fd08f0de6b02894058f8') in 0.025723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_05.prefab
+  artifactKey: Guid(c2a0fc10945df9e418571f99bc77a38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Books/P_Book_05.prefab using Guid(c2a0fc10945df9e418571f99bc77a38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d5c11c140b67fc06298b5f3f548d6a') in 0.024906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.842175 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Ball_01.prefab
+  artifactKey: Guid(21972539fd75d9d4b870c3834b560bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Ball_01.prefab using Guid(21972539fd75d9d4b870c3834b560bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a158fb7067ce1f790af69bf1aa46e095') in 0.040456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_C.prefab
+  artifactKey: Guid(7ba7da776729e374491f58ad94c0c824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_C.prefab using Guid(7ba7da776729e374491f58ad94c0c824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a685936619c1807d656613a0542e24c') in 0.257489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_K.prefab
+  artifactKey: Guid(4882454e257d9024d93ceac11f2fc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_K.prefab using Guid(4882454e257d9024d93ceac11f2fc519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76292df6f51f33a67d9cd54ea88141ef') in 0.054733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_W.prefab
+  artifactKey: Guid(8f3bf20d001663147877911df4becb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_W.prefab using Guid(8f3bf20d001663147877911df4becb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c384a4477978daf1dda64d9862259') in 0.054153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_S.prefab
+  artifactKey: Guid(de07cfc738c322a4c8b03ae03e6f6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_S.prefab using Guid(de07cfc738c322a4c8b03ae03e6f6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fa7361673a012e9d921d69f8ad2a5d') in 0.058428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_X.prefab
+  artifactKey: Guid(296533e14d1d5cc4cbda89edfdb6f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_X.prefab using Guid(296533e14d1d5cc4cbda89edfdb6f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b02a3a571b10bba9bf8fcd83c0afda9') in 0.057746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_E.prefab
+  artifactKey: Guid(78b19b4a3143d6b48ae7968f5befd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_E.prefab using Guid(78b19b4a3143d6b48ae7968f5befd6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef8344727694f176bdd413d45d4c554') in 0.055015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_V.prefab
+  artifactKey: Guid(3831c3052f60cc14b8c5a931d2d3e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_V.prefab using Guid(3831c3052f60cc14b8c5a931d2d3e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d164510e3baab1fc8fddec70ad67ab') in 0.055029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Horse_Child.prefab
+  artifactKey: Guid(e8e67a387f55ed84083cb13535ef2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Horse_Child.prefab using Guid(e8e67a387f55ed84083cb13535ef2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940b8273865c16df76384b76e55d9deb') in 0.083075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_Z.prefab
+  artifactKey: Guid(928e3d21a02e1004882927955c749ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Child/P_Child_Cube_Z.prefab using Guid(928e3d21a02e1004882927955c749ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aabe23551ccfe43d61617447964be31') in 0.047643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.315183 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Decoration/P_Carpet_02.prefab
+  artifactKey: Guid(5c0151fcd7823b24e8bf92961e2b5493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Decoration/P_Carpet_02.prefab using Guid(5c0151fcd7823b24e8bf92961e2b5493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacd2ac8cdcdc152df00cfcd9c58c2d0') in 0.109163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Decoration/P_Wall Shelf_01.prefab
+  artifactKey: Guid(e755a59fea127dd4db4d7294dec01b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Decoration/P_Wall Shelf_01.prefab using Guid(e755a59fea127dd4db4d7294dec01b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0110622ebf3a1bc7c2992ef2a9364330') in 0.043008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.514669 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Cabinet_01.prefab
+  artifactKey: Guid(a74d76c77bb23ef4d9d9e8a5f256540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Cabinet_01.prefab using Guid(a74d76c77bb23ef4d9d9e8a5f256540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdc5b915456c4c0bde906c988aeda60') in 0.074079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Cabinet_03.prefab
+  artifactKey: Guid(afb87cf31807b4945932cae5c2ccbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Cabinet_03.prefab using Guid(afb87cf31807b4945932cae5c2ccbe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c42ce15e3a7c53dd4c0820c3d996ec5') in 0.065170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Small_01.prefab
+  artifactKey: Guid(9487c21c717c0aa4f9ec5d00e2bec723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Drawers/P_Drawer_Small_01.prefab using Guid(9487c21c717c0aa4f9ec5d00e2bec723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86778c43ec5ad26903718332fe8f3ce4') in 0.048773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.504023 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Flowers/P_Flower_Pot_02.prefab
+  artifactKey: Guid(230c9d50826874541a0cdac9b3f0f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Flowers/P_Flower_Pot_02.prefab using Guid(230c9d50826874541a0cdac9b3f0f2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7dc0d7bd1c4bb6ad8c07ae0fc9db8f') in 0.315296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.124895 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Coffee_Maker_01_B.prefab
+  artifactKey: Guid(76c893e58defea04a93fd4687a2ac2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Coffee_Maker_01_B.prefab using Guid(76c893e58defea04a93fd4687a2ac2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7441a9002cf7022e7bb0eba8d59e4163') in 0.090376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Spoon_01.prefab
+  artifactKey: Guid(ed68b8279ba3d4d4fb9c416175203aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Spoon_01.prefab using Guid(ed68b8279ba3d4d4fb9c416175203aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9547a441d60b41b0f1c3a82f00db86a7') in 0.039817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Table_6_Places_Props.prefab
+  artifactKey: Guid(d8ccfdcd5a4da4d4cbde8a77842b2efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Table_6_Places_Props.prefab using Guid(d8ccfdcd5a4da4d4cbde8a77842b2efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d9ebdb51d8cc82918a284b89eafef1') in 0.159675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Mug_01.prefab
+  artifactKey: Guid(fafb8534c49889a48916cc9588611fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Mug_01.prefab using Guid(fafb8534c49889a48916cc9588611fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1e182ee140c52d0f5abb73dd57249f') in 0.040458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Kitchen_Drawer_06.prefab
+  artifactKey: Guid(28293a1e633cd73498026237d29ae07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Kitchen_Drawer_06.prefab using Guid(28293a1e633cd73498026237d29ae07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa063dbe00e4c63233c07ccb7b32026') in 0.058009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Table_6_Places.prefab
+  artifactKey: Guid(5f7d586e2d53127499c76ff01bb1e673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Kitchen/P_Table_6_Places.prefab using Guid(5f7d586e2d53127499c76ff01bb1e673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f4b2fd97237a20c8c5eab2fb8139b1') in 0.119030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.122894 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Lights/P_Hallogen_01.prefab
+  artifactKey: Guid(f30c9b11fcdadc9499ed6005bf9b3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Lights/P_Hallogen_01.prefab using Guid(f30c9b11fcdadc9499ed6005bf9b3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387aaaee2f973ce28de2570e4c9093ab') in 0.040692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Lights/P_Vase_Lamp_01.prefab
+  artifactKey: Guid(d3220dc06b783b344a431ba1dae55cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Props/_Lights/P_Vase_Lamp_01.prefab using Guid(d3220dc06b783b344a431ba1dae55cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0443cc40ff7d8599c47e0bcef66b82') in 0.057387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.474284 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01.prefab
+  artifactKey: Guid(11a944b11d3e74f5cb8cf43cfac7770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Flower_01.prefab using Guid(11a944b11d3e74f5cb8cf43cfac7770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706239f3809f055fa414fd70d37832aa') in 0.024952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_04.prefab
+  artifactKey: Guid(467b5e921d6f649159847f0985f4762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_04.prefab using Guid(467b5e921d6f649159847f0985f4762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6579809daeb4ac2a9786c79fe6ac9a6') in 0.039436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_03.prefab
+  artifactKey: Guid(93cfbdeff79304e0bb0735065308c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_03.prefab using Guid(93cfbdeff79304e0bb0735065308c461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ef88b07326fdfb313a4a8ae1d2d45c') in 0.028757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_02.prefab
+  artifactKey: Guid(2b9ed09b5ba034f5297d89d965b97e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_02.prefab using Guid(2b9ed09b5ba034f5297d89d965b97e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a61c8ae29ab8726a381f9af98887785') in 0.032774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_01.prefab
+  artifactKey: Guid(85d235ceed7d84b42b3f2fd5ff819910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Ivy_Line_01.prefab using Guid(85d235ceed7d84b42b3f2fd5ff819910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93735bda0667e32a5e4b6d57c8dae55e') in 0.031929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_04.prefab
+  artifactKey: Guid(ae227d85ce7ea4ddebd687730454c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_04.prefab using Guid(ae227d85ce7ea4ddebd687730454c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f94ac170834908647bed6323eaaa1f') in 0.040664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_07.prefab
+  artifactKey: Guid(24fcc6ae6b289475a9a7c0bce2a4938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Plant_07.prefab using Guid(24fcc6ae6b289475a9a7c0bce2a4938c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618c84f53c6773e35177134cfc02ca54') in 0.036353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Leaf.prefab
+  artifactKey: Guid(9c6caffad69914fe7b7e9efe7a50fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Waterlily_Leaf.prefab using Guid(9c6caffad69914fe7b7e9efe7a50fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6251fac6e1de393e0ade06c578b026cf') in 0.037933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_01.prefab
+  artifactKey: Guid(3143ff10a0e4d47fab11272fbaa1130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Weed_01.prefab using Guid(3143ff10a0e4d47fab11272fbaa1130b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec597b151a01a4693a7782531aacb6ff') in 0.031853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_01.prefab
+  artifactKey: Guid(70c8740e9844f463caa522c6fc46fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Plants/P_Tulip_01.prefab using Guid(70c8740e9844f463caa522c6fc46fb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f84e91a6038016070013892b3a63670') in 0.035305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.353455 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Beam_01.prefab
+  artifactKey: Guid(5466cc31b84d3574ab7aa2e85afa5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Beam_01.prefab using Guid(5466cc31b84d3574ab7aa2e85afa5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e731382d03ae573549355e21ff266154') in 0.039658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_02_B.prefab
+  artifactKey: Guid(a3e78b88d5936e94d9a9bd492bee4ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_02_B.prefab using Guid(a3e78b88d5936e94d9a9bd492bee4ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce8e2713a75540fd99555004669e8e4') in 0.070362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Floor_Strip_01.prefab
+  artifactKey: Guid(8b5c2bb9191d76f48b926223f16adbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Floor_Strip_01.prefab using Guid(8b5c2bb9191d76f48b926223f16adbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812772a3a4411b9dafe53c75c6d66c5') in 0.042984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Column_Angle_01.prefab
+  artifactKey: Guid(fe5c00233c24f8d45aabcd4836704195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Column_Angle_01.prefab using Guid(fe5c00233c24f8d45aabcd4836704195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9609df1492e89cb86d19aa3c62645f04') in 0.052665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_Strip_02.prefab
+  artifactKey: Guid(cd5cb0521b6dbd647b89cc4d8d261dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_Strip_02.prefab using Guid(cd5cb0521b6dbd647b89cc4d8d261dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01e1a7cf85080eaad27e5dfc98c4fc0') in 0.038162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Floor_02.prefab
+  artifactKey: Guid(6b863a48775e69449b8f7faacd2dc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Floor_02.prefab using Guid(6b863a48775e69449b8f7faacd2dc7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009aa7b6d814929c8cc13a0d07db821f') in 0.043031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_01_C.prefab
+  artifactKey: Guid(470cc6e2e17cbfe49a2af0cb004ba69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_01_C.prefab using Guid(470cc6e2e17cbfe49a2af0cb004ba69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666d600f286d1bf78328c60e6ba3e2fa') in 0.069231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Int_Simple_01.prefab
+  artifactKey: Guid(25c37e0a7aba9ab458c4624e78fbe300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Int_Simple_01.prefab using Guid(25c37e0a7aba9ab458c4624e78fbe300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149401c8e085f84199e4c656a0404a4') in 0.036734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_Strip_03.prefab
+  artifactKey: Guid(67066adaae15fb84fa5b080cf9894080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_Strip_03.prefab using Guid(67066adaae15fb84fa5b080cf9894080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91da2c8834202e5be31b5c93824dc62') in 0.051332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Int_Arch_01.prefab
+  artifactKey: Guid(b114c24b3fb762a4c866f904e537a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Int_Arch_01.prefab using Guid(b114c24b3fb762a4c866f904e537a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cb3167d8f49f4c1d6dce6978301d55') in 0.064834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Ext_Door_01.prefab
+  artifactKey: Guid(ff8793daf4539f9458dea102c741fe81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Ext_Door_01.prefab using Guid(ff8793daf4539f9458dea102c741fe81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9ea4a81bdb0ec8b2df1009aea83a7e') in 0.110536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Ext_Window_02.prefab
+  artifactKey: Guid(8efeb519ec76dd94ab4d9c6258fb386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Wall_Ext_Window_02.prefab using Guid(8efeb519ec76dd94ab4d9c6258fb386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26067065f641826cd369d9dcd3e5f8b') in 0.247689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_03_B.prefab
+  artifactKey: Guid(1e116f5a5d5cf724eaf8b92f930d72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_03_B.prefab using Guid(1e116f5a5d5cf724eaf8b92f930d72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b968d7aeefc0b5920def8993bf14651c') in 0.048805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_01.prefab
+  artifactKey: Guid(95bc5e4e3f843844788a4f97cd8f4e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House/_Creepy_Cat/_Modern_Interior_Kit_Vol_1/Prefabs/_Build/P_Ceiling_01.prefab using Guid(95bc5e4e3f843844788a4f97cd8f4e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe635e7ab65f707183fdd6fd161575d') in 0.043489 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002331 seconds.
+Registered in 0.013226 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\zeta\OneDrive\Documents\GitHub\Eyedylic\Eyedylic Prototype\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
+- Completed reload, in  1.016 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (494ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (196ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.1 KB). Loaded Objects now: 5568.
-Memory consumption went from 319.0 MB to 318.5 MB.
-Total: 2.827500 ms (FindLiveObjects: 0.228458 ms CreateObjectMapping: 0.066875 ms MarkObjects: 2.259792 ms  DeleteObjects: 0.271291 ms)
+Unloading 67 unused Assets / (121.2 KB). Loaded Objects now: 5575.
+Memory consumption went from 189.2 MB to 189.0 MB.
+Total: 3.300900 ms (FindLiveObjects: 0.424500 ms CreateObjectMapping: 0.385600 ms MarkObjects: 2.360100 ms  DeleteObjects: 0.129700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 334.630289 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MainMenu.cs using Guid(cc7c6d463fdc2407f83326d2161f3982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6e18a1c9c640901ae6fd24e080183a') in 0.005964 seconds 
+  Time since last request: 753.273954 seconds.
+  path: Assets/Sound/[Audio] Toilet Dialogue 1 .prefab
+  artifactKey: Guid(90a95e468fe29e046aba96493e412aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/[Audio] Toilet Dialogue 1 .prefab using Guid(90a95e468fe29e046aba96493e412aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7c39dee38710e58b79b0f91de389da') in 0.036015 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002871 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16da07000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Domain Reload Profiling:
-	ReloadAssembly (622ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (195ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
-Unloading 4900 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (450.0 KB). Loaded Objects now: 5571.
-Memory consumption went from 319.0 MB to 318.6 MB.
-Total: 3.262291 ms (FindLiveObjects: 0.275125 ms CreateObjectMapping: 0.135833 ms MarkObjects: 2.600917 ms  DeleteObjects: 0.248750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sound/Toilet Phone Notif.mp3
+  artifactKey: Guid(0f307b004dfe64242a93b2e2afa8bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/Toilet Phone Notif.mp3 using Guid(0f307b004dfe64242a93b2e2afa8bbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0203298ddfcef910adc9178cce27d2f') in 0.848672 seconds 
 ========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 10.99 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (450.9 KB). Loaded Objects now: 5571.
-Memory consumption went from 222.6 MB to 222.1 MB.
-Total: 2.879875 ms (FindLiveObjects: 0.215250 ms CreateObjectMapping: 0.062834 ms MarkObjects: 2.369500 ms  DeleteObjects: 0.231792 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sound/hover sound.mp3
+  artifactKey: Guid(9e2dc230bcc103f46ae6ac064af4516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/hover sound.mp3 using Guid(9e2dc230bcc103f46ae6ac064af4516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb4327f49174ecacdf4cc44ef11606') in 0.014110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/start pg audio.mp3
+  artifactKey: Guid(fd09849e66d955c4aa4dfc202ab0282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/start pg audio.mp3 using Guid(fd09849e66d955c4aa4dfc202ab0282c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99671d5179b37560c4c509061b42e6ca') in 0.012756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sound/click button.mp3
+  artifactKey: Guid(055e30cbc3c422144bf3b7f29bb3e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/click button.mp3 using Guid(055e30cbc3c422144bf3b7f29bb3e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268d2b7cb2481cc2b7341247f0b84032') in 0.011413 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

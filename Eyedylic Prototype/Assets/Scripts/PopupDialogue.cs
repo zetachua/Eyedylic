@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Audio;
 
 public class PopupDialogue : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PopupDialogue : MonoBehaviour
 
     public GameObject dialogueBox;
     public TextMeshProUGUI textComponent;
+
 
     public string text;
 
@@ -34,7 +36,7 @@ public class PopupDialogue : MonoBehaviour
     IEnumerator TypeLine()
     {
         yield return new WaitForSeconds(1);
-        foreach(char c in text.ToCharArray())
+        foreach (char c in text.ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
