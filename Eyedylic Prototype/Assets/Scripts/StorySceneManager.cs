@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class ToiletSceneManager : MonoBehaviour
+
+public class StorySceneManager : MonoBehaviour
 {
     [System.Serializable]
     public class SceneReferences
@@ -11,23 +13,24 @@ public class ToiletSceneManager : MonoBehaviour
         public GameObject TargetAudio;
         public AudioSource DialogueAudio;
         public GameObject TargetObject;
-        public GameObject Highlight;
     }
     [SerializeField]
     public List<SceneReferences> ToiletSceneList = new List<SceneReferences>();
 
     Outline outline;
+    Scene scene;
     bool playTargetAudio = false;
     public GameObject dialoguePrefab;
-    string systemVoice="You have a notification: Project discussion on zoom meeting at 12.00pm, starting in 5 minutes.";
+    private string systemVoice;
     public bool playSystemSound = false;
 
     void Start()
     {
-        StartCoroutine(SceneManager());
+        scene = SceneManager.GetActiveScene();
+        StartCoroutine(InternalSceneManager());
     }
 
-IEnumerator SceneManager()
+IEnumerator InternalSceneManager()
     {
         int InternalSceneNumber;
         for (InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
@@ -48,7 +51,7 @@ IEnumerator SceneManager()
 
                 case 1:
                     //phone notif scene
-                    StartCoroutine(ShowDialogue(systemVoice, 0, InternalSceneNumber));
+                    StartCoroutine(ShowDialogue(SystemVoice(), 0, InternalSceneNumber));
                     yield return new WaitForSeconds(12);
                     break;
 
@@ -119,4 +122,18 @@ IEnumerator SceneManager()
         dialogueBox.delete(); //Deletes the popup after waiting
     }
 
+    public string SystemVoice()
+    {
+        switch (scene.buildIndex)
+        {
+            case 1:
+                systemVoice = "Temperature of water is 30 degrees celcius, hope that is not too hot for you!";
+                break;
+
+            case 2:
+                systemVoice = "You have a notification: Project discussion on zoom meeting at 12.00pm, starting in 5 minutes.";
+                break;
+        }
+        return systemVoice;
+    }
 }
