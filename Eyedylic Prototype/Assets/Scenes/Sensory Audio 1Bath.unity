@@ -8285,7 +8285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 2074354419}
-  speed: 0.3
+  speed: 0.03
   horizontalSpeedMultiplier: 0.9
   verticalSpeedMultiplier: 0.2
 --- !u!224 &1060231730
@@ -12653,7 +12653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 2074354419}
-  speed: 0.5
+  speed: 0.06
   horizontalSpeedMultiplier: 0.3
   verticalSpeedMultiplier: -0.8
 --- !u!224 &1615628288
@@ -14787,7 +14787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 2074354419}
-  speed: 0.6
+  speed: 0.08
   horizontalSpeedMultiplier: -0.7
   verticalSpeedMultiplier: -0.45
 --- !u!224 &1818560153
@@ -15424,7 +15424,7 @@ GameObject:
   - component: {fileID: 1886677090}
   - component: {fileID: 1886677089}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FilterSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15442,11 +15442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b673e1477774131ab57bfd49e3ac46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DRTog: 0
-  MacularTog: 0
-  CataractTog: 1
-  GlaucomaTog: 0
-  Canvas: {fileID: 0}
+  DRCanvas: {fileID: 2074354419}
   MacularDegenerationCanvas: {fileID: 1790433946}
   MainCamera: {fileID: 3839742614369245279}
 --- !u!4 &1886677090
@@ -16309,7 +16305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 2074354419}
-  speed: 0.15
+  speed: 0.05
   horizontalSpeedMultiplier: 1.2
   verticalSpeedMultiplier: -0.5
 --- !u!224 &2020542984
@@ -17003,7 +16999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2074354420
 RectTransform:
   m_ObjectHideFlags: 0

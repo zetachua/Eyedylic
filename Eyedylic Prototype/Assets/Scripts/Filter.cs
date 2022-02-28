@@ -8,8 +8,7 @@ using UnityEngine.UI;
 public class Filter : MonoBehaviour
 {
     // Start is called before the first frame update
-    public bool DRTog, MacularTog, CataractTog, GlaucomaTog;
-    public GameObject Canvas;
+    public GameObject DRCanvas;
     public GameObject MacularDegenerationCanvas;
     public GameObject MainCamera;
     private MobilePostProcessing MobilePostProcessingScript;
@@ -17,8 +16,6 @@ public class Filter : MonoBehaviour
     void Start()
     {
         applyFilter();
-
-        
 
     }
 
@@ -41,17 +38,17 @@ public class Filter : MonoBehaviour
 
     public void applyFilter()
     {
-        if(DRTog == true)
+        if(MainMenu.DRTog == true)
         {
-            Canvas.SetActive(true);
+            DRCanvas.SetActive(true);
         }
         else
         {
-            Canvas.SetActive(false);
+            DRCanvas.SetActive(false);
         }
 
 
-        if (MacularTog == true)
+        if (MainMenu.MacularTog == true)
         {
             MacularDegenerationCanvas.SetActive(true);
         }
@@ -61,7 +58,7 @@ public class Filter : MonoBehaviour
         }
 
 
-        if(CataractTog == true)
+        if(MainMenu.CataractTog == true)
         {
             MobilePostProcessingScript.Contrast = 0.1f;
             MobilePostProcessingScript.Brightness = -0.3f;
@@ -82,7 +79,7 @@ public class Filter : MonoBehaviour
         }
 
 
-        if (GlaucomaTog == true)
+        if (MainMenu.GlaucomaTog == true)
         {
             MainCamera.GetComponent<MobileBlur>().enabled = true;
             MobileBlurScript.BlurAmount = 0.1f;
