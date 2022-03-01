@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
 {
     public Button DRButt, MacularButt, CataractButt, GlaucomaButt;
     public static bool DRTog, MacularTog, CataractTog, GlaucomaTog;
+    public Color selectColor;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class MainMenu : MonoBehaviour
         MacularTog = false;
         CataractTog = false;
         GlaucomaTog = false;
-        DRButt.image.color = Color.red;
+        DRButt.image.color = selectColor;
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
@@ -41,7 +42,7 @@ public class MainMenu : MonoBehaviour
         CataractTog = false;
         GlaucomaTog = false;
         DRButt.image.color = Color.white;
-        MacularButt.image.color = Color.red;
+        MacularButt.image.color = selectColor;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
     }
@@ -53,7 +54,7 @@ public class MainMenu : MonoBehaviour
         GlaucomaTog = false;
         DRButt.image.color = Color.white;
         MacularButt.image.color = Color.white;
-        CataractButt.image.color = Color.red;
+        CataractButt.image.color = selectColor;
         GlaucomaButt.image.color = Color.white;
     }
 
@@ -65,7 +66,7 @@ public class MainMenu : MonoBehaviour
         DRButt.image.color = Color.white;
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
-        GlaucomaButt.image.color = Color.red;
+        GlaucomaButt.image.color = selectColor;
     }
 
 

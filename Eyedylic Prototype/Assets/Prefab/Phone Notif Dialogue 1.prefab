@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2142444723943467963}
   - component: {fileID: 2142444723943467961}
   - component: {fileID: 2142444723943467962}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 2142444724712291818}
   - component: {fileID: 2142444724712291819}
   - component: {fileID: 2142444724712291796}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 2142444724899256047}
   - component: {fileID: 2142444724899256040}
   - component: {fileID: 1025630064461522689}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Phone Notif Dialogue 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: 586593767
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &2142444724899256046
