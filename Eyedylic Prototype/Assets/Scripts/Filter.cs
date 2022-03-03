@@ -66,7 +66,7 @@ public class Filter : MonoBehaviour
             MobilePostProcessingScript.Contrast = 0.1f;
             MobilePostProcessingScript.Brightness = 0.2f;
             MobilePostProcessingScript.Saturation = -0.4f;
-            MobilePostProcessingScript.Sharpness = 0.25;
+            MobilePostProcessingScript.Sharpness = 0.25f;
 
             MainCamera.GetComponent<MobileBlur>().enabled = true;
             MobileBlurScript.BlurAmount = 0.5f;
