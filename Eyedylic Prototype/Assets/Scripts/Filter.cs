@@ -41,10 +41,13 @@ public class Filter : MonoBehaviour
         if(MainMenu.DRTog == true)
         {
             DRCanvas.SetActive(true);
+            MainCamera.GetComponent<MobileBlur>().enabled = true;
+            MobileBlurScript.BlurAmount = 0.2f;
         }
         else
         {
             DRCanvas.SetActive(false);
+            MainCamera.GetComponent<MobileBlur>().enabled = false;
         }
 
 
@@ -61,18 +64,18 @@ public class Filter : MonoBehaviour
         if(MainMenu.CataractTog == true)
         {
             MobilePostProcessingScript.Contrast = 0.1f;
-            MobilePostProcessingScript.Brightness = -0.3f;
-            MobilePostProcessingScript.Saturation = -0.1f;
-            MobilePostProcessingScript.Sharpness = 0;
+            MobilePostProcessingScript.Brightness = 0.2f;
+            MobilePostProcessingScript.Saturation = -0.4f;
+            MobilePostProcessingScript.Sharpness = 0.25;
 
             MainCamera.GetComponent<MobileBlur>().enabled = true;
-            MobileBlurScript.BlurAmount = 0.8f;
+            MobileBlurScript.BlurAmount = 0.5f;
         }
         else
         {
             MobilePostProcessingScript.Vignette = false;
-            MobilePostProcessingScript.Contrast = 0.6f;
-            MobilePostProcessingScript.Sharpness = 0.5f;
+            MobilePostProcessingScript.Contrast = 0f;
+            MobilePostProcessingScript.Sharpness = 0f;
             MobilePostProcessingScript.Brightness = 0f;
             MobilePostProcessingScript.Saturation = 0f;
             MainCamera.GetComponent<MobileBlur>().enabled = false;
@@ -87,17 +90,17 @@ public class Filter : MonoBehaviour
             MobilePostProcessingScript.Saturation = -0.1f;
             MobilePostProcessingScript.Sharpness = 0.5f;
             MobilePostProcessingScript.Vignette = true;
-            MobilePostProcessingScript.VignetteAmount = 0.53f;
+            MobilePostProcessingScript.VignetteAmount = 0.7f;
             MobilePostProcessingScript.VignetteSoftness = 0.4f;
         }
-        /*else
+        else
         {
             MobilePostProcessingScript.Vignette = false;
-            MobilePostProcessingScript.Contrast = 0.6f;
-            MobilePostProcessingScript.Sharpness = 0.5f;
+            MobilePostProcessingScript.Contrast = 0f;
+            MobilePostProcessingScript.Sharpness = 0f;
             MobilePostProcessingScript.Brightness = 0f;
             MobilePostProcessingScript.Saturation = 0f;
             MainCamera.GetComponent<MobileBlur>().enabled = false;
-        }*/
+        }
     }
 }
