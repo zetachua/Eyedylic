@@ -52,6 +52,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
+        filterSetObject.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableMacular(){
@@ -63,6 +64,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = selectColor;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
+        filterSetObject.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableCataract(){
@@ -74,6 +76,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = selectColor;
         GlaucomaButt.image.color = Color.white;
+        filterSetObject.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableGlaucoma(){
@@ -85,10 +88,6 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = selectColor;
-    }
-
-    public void SetFilters()
-    {
         filterSetObject.GetComponent<Filter>().applyFilter();
     }
 
