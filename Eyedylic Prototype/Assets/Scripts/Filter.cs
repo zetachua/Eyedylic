@@ -69,7 +69,7 @@ public class Filter : MonoBehaviour
             MobilePostProcessingScript.Sharpness = 0.25f;
 
             MainCamera.GetComponent<MobileBlur>().enabled = true;
-            MobileBlurScript.BlurAmount = 0.5f;
+            MobileBlurScript.BlurAmount = 0.8f;
         }
         else
         {
@@ -82,6 +82,7 @@ public class Filter : MonoBehaviour
         }
 
 
+   
         if (MainMenu.GlaucomaTog == true)
         {
             MainCamera.GetComponent<MobileBlur>().enabled = true;
