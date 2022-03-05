@@ -10,10 +10,10 @@ public class LevelLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        /*if (Input.GetMouseButton(0))
         {
             FadeToNextScene();
-        }
+        }*/
 
     }
     public void FadeToNextScene()
@@ -24,10 +24,10 @@ public class LevelLoader : MonoBehaviour
     public void FadeToLevel(int levelIndex)
     {
         levelToLoad = levelIndex;
-        animator.SetTrigger("FadeOut");
+        animator.SetTrigger("Fade_Out");
     }
 
-    public void OnFadeComplete()
+    public void OnFadeComplete(int buildIndex)
     {
         SceneManager.LoadScene(levelToLoad);
     }

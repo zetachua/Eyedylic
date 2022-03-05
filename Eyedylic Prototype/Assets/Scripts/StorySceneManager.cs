@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 
 public class StorySceneManager : MonoBehaviour
@@ -17,6 +18,12 @@ public class StorySceneManager : MonoBehaviour
     [SerializeField]
     public List<SceneReferences> ToiletSceneList = new List<SceneReferences>();
 
+    [SerializeField]
+    private CanvasGroup StartPageCanvas;
+
+    [SerializeField]
+    private LevelLoader levelLoader;
+
     Outline outline;
     Scene scene;
     bool playTargetAudio = false;
@@ -27,11 +34,19 @@ public class StorySceneManager : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
+        //StartCoroutine(FadeInScene());
         StartCoroutine(InternalSceneManager());
     }
 
-IEnumerator InternalSceneManager()
+    IEnumerator InternalSceneManager()
     {
+
+        //Scene introduction
+        StartPageCanvas.alpha = 1;
+        yield return new WaitForSeconds(5);
+        StartPageCanvas.GetComponent<CanvasGroup>().DOFade(0, 1);
+        yield return new WaitUntil(()=> StartPageCanvas.alpha==0);
+
         int InternalSceneNumber;
         for (InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
         {
@@ -42,7 +57,7 @@ IEnumerator InternalSceneManager()
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     PlayTargetAudio(InternalSceneNumber);
-                    
+
                     yield return new WaitForSeconds(5);
                     Highlight(InternalSceneNumber);
                     yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
@@ -63,7 +78,12 @@ IEnumerator InternalSceneManager()
             }
             SetCanvasGroupInactive(InternalSceneNumber);
         }
-    }
+
+        yield return new WaitForSeconds(3);
+        // levelLoader.FadeToNextScene();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    
+}
 
     //Set Canvas Active and Handle the Sound
     public void SetCanvasGroupActive(int InternalSceneNumber)
@@ -136,4 +156,13 @@ IEnumerator InternalSceneManager()
         }
         return systemVoice;
     }
+
+    IEnumerator FadeInScene()
+    {
+        //fadein
+        levelLoader.FadeToNextScene();
+        yield return new WaitForSeconds(5);
+
+    }
+
 }

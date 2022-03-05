@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 2142444724899256040}
   - component: {fileID: 1025630064461522689}
   m_Layer: 5
-  m_Name: Phone Notif Dialogue 1
+  m_Name: '[UI] System Notif Dialogue'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &2142444724899256047
 MonoBehaviour:
   m_ObjectHideFlags: 0
