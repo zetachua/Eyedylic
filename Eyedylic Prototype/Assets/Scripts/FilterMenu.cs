@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 
 public class FilterMenu : MonoBehaviour
 {
@@ -11,11 +12,8 @@ public class FilterMenu : MonoBehaviour
     public Button DRButt, MacularButt, CataractButt, GlaucomaButt;
     public Color selectColor;
     public GameObject filterSetObject;
-    public InputActionReference filterReference = null;
-    public GameObject RightHand;
-    public GameObject LeftHand;
     public GameObject SettingMenuObject;
-    static bool ShowMenu = false;
+    
 
     void awake()
     {
@@ -96,31 +94,29 @@ public class FilterMenu : MonoBehaviour
     
     // Start is called before the first frame update
 
-    private void Awake()
-    {
-        filterReference.action.started += Pause;
-    }
-
-    private void OnDestroy()
-    {
-        filterReference.action.started -= Pause;
-    }
-
+    
     public void OpenSettingMenu(){
         SettingMenuObject.SetActive(true);
         gameObject.SetActive(false);
     }
 
-    private void Pause(InputAction.CallbackContext context)
+    
+
+    public void OpenFilterMenu()
     {
-        ShowMenu = !ShowMenu;
-        gameObject.SetActive(ShowMenu);
-        if(!ShowMenu)
-        {
-            SettingMenuObject.SetActive(ShowMenu);
-        }
-        LeftHand.GetComponent<XRInteractorLineVisual>().enabled = ShowMenu;
-        RightHand.GetComponent<XRInteractorLineVisual>().enabled = ShowMenu;
+        gameObject.SetActive(true);
+        
+    }
+
+    public void ReturnButton()
+    {
+        ControlManager.ShowMenu = false;
+        gameObject.SetActive(false);
+    }
+
+    public void ExitButton()
+    {
+        SceneManager.LoadScene("Main menu");
     }
 
     void Start()
