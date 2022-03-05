@@ -8,6 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -45,6 +46,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -62,14 +65,15 @@ MonoBehaviour:
   controlID: 89
 =======
     y: 28
-    width: 1920
-    height: 1052
+    width: 1440
+    height: 872
   m_ShowMode: 4
-  m_Title: Scene
-  m_RootView: {fileID: 7}
+  m_Title: Inspector
+  m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
+<<<<<<< HEAD
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
 --- !u!114 &3
 MonoBehaviour:
@@ -132,6 +136,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 3856
 --- !u!114 &5
+=======
+--- !u!114 &2
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,6 +156,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 359
     height: 592
 =======
@@ -158,11 +166,18 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
+=======
+    width: 190.5
+    height: 822
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,6 +193,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 592
     width: 1463
@@ -190,18 +206,25 @@ MonoBehaviour:
   - {fileID: 17}
 =======
     x: 485
+=======
+    x: 193
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
     y: 0
-    width: 744
-    height: 709
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+    width: 794
+    height: 581
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 21}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+  - {fileID: 17}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,22 +237,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 10}
-  - {fileID: 9}
+  - {fileID: 5}
+  - {fileID: 7}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1052
+    width: 1440
+    height: 872
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,12 +269,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1440
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &9
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,12 +290,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1032
-    width: 1920
+    y: 852
+    width: 1440
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &10
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -285,20 +308,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 5}
-  - {fileID: 11}
-  - {fileID: 15}
+  - {fileID: 2}
+  - {fileID: 8}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 1002
+    width: 1440
+    height: 822
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
   controlID: 20
---- !u!114 &11
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,12 +334,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 14}
+  - {fileID: 9}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 339
+    x: 190.5
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1463
 =======
@@ -333,6 +357,15 @@ MonoBehaviour:
   controlID: 21
 --- !u!114 &12
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    width: 987
+    height: 822
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 79
+--- !u!114 &9
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,12 +378,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 6}
+  - {fileID: 10}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1463
     height: 592
@@ -368,6 +402,15 @@ MonoBehaviour:
   controlID: 22
 --- !u!114 &13
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    width: 987
+    height: 581
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 57
+--- !u!114 &10
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -390,13 +433,19 @@ MonoBehaviour:
 =======
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 485
     height: 709
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    width: 193
+    height: 581
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 13}
   m_Panes:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 15}
   - {fileID: 16}
@@ -405,9 +454,14 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 20}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+  - {fileID: 13}
+  - {fileID: 15}
+  - {fileID: 16}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -417,24 +471,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 709
-    width: 1229
-    height: 293
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 22}
+    y: 581
+    width: 987
+    height: 241
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &15
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -449,17 +503,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1568
+    x: 1177.5
     y: 0
-    width: 352
-    height: 1002
+    width: 262.5
+    height: 822
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 24}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< HEAD
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -724,6 +779,9 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 --- !u!114 &15
+=======
+--- !u!114 &13
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -739,10 +797,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 359
     y: 58
     width: 1102
@@ -758,6 +817,12 @@ MonoBehaviour:
     width: 483
     height: 688
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    x: 190.5
+    y: 58
+    width: 191
+    height: 560
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -848,7 +913,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -965,6 +1030,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 38.29647, y: 10.630185, z: 62.198036}
     speed: 2
     m_Value: {x: 38.29647, y: 10.630185, z: 62.198036}
@@ -973,6 +1039,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.082380965, y: 2.0720608, z: 0.7650467}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    m_Target: {x: -1025.6843, y: -1.0410001, z: 213.1784}
+    speed: 2
+    m_Value: {x: -1025.6843, y: -1.0410001, z: 213.1784}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1020,6 +1091,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.08741727, y: 0.16832876, z: -0.014988692, w: 0.9817321}
     speed: 2
     m_Value: {x: 0.08752728, y: 0.1609612, z: -0.014332655, w: 0.9829675}
@@ -1029,13 +1101,20 @@ MonoBehaviour:
     m_Value: 17.158024
 =======
     m_Target: {x: -0.21131943, y: 0.025806399, z: -0.005581107, w: -0.97705996}
+=======
+    m_Target: {x: -0.08119149, y: 0.5290833, z: -0.050948445, w: -0.8431401}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
     speed: 2
-    m_Value: {x: -0.21131952, y: 0.02580641, z: -0.0055811093, w: -0.9770604}
+    m_Value: {x: -0.0811914, y: 0.5290827, z: -0.05094839, w: -0.84313923}
   m_Size:
-    m_Target: 0.5055099
+    m_Target: 1.3512344
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.50550985
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    m_Value: 1.3512344
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1060,7 +1139,7 @@ MonoBehaviour:
   m_SceneVisActive: 0
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1078,14 +1157,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 58
-    width: 338
-    height: 981
+    width: 189.5
+    height: 801
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1093,9 +1172,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fc41ffff4c42fffffc4affffc24bffff6459ffffc05dffff145effff8c6bffff5e6cffff8472ffffd872ffff5480ffff2a81ffffc086ffff1487ffff8c94ffff5e95ffff12cfffff64cfffffdcdcffffaeddffff18f3ffff1ef3ffff1cfbfffffe6b00003071000008f600006cf60000f8fa00003afc00007200010088020100149601005a9c0100aaa20100eacf010022d001002cd10100
+      m_SelectedIDs: 9cb70300
+      m_LastClickedID: 243612
+      m_ExpandedIDs: 8612feffd812feff5020feff2221feffaa27fefffa27feffaa30feff7831feffc435feff1436feffc43efeff923ffeff7447feffc647feff3e55feff1056feff025efeff505efeff0467feffd667feffe671feff3472feffe47afeffb27bfeffba80feff0881feffbc89feff8e8afeffd095feff1e96feffd29efeffa49ffeff5aa8feffaca8feff24b6fefff6b6feff06bffeff54bffeff04c8feffd2c8feff6ecefeffbecefeff6ed7feff3cd8feffb6dafeff0edffeff60dffeffd8ecfeffaaedfeff3ef7feff44f7feff42fffeff2c9b01005ea0010086020200ac080200bc0e0200402e0200663402006a380200763a0200fe5902002460020034660200b88502006a860200de8b0200ee91020072b1020098b702002cdd020052e3020062e90200e60803000c0f03001c150300a2340300c83a0300d8400300e0850300068c030066ab03008cb103009cb70300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1111,7 +1190,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 2}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1119,7 +1198,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1135,7 +1214,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -1236,7 +1315,7 @@ MonoBehaviour:
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1252,7 +1331,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -1264,7 +1343,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1281,10 +1360,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 507
     y: 94
@@ -1296,6 +1376,12 @@ MonoBehaviour:
     width: 742
     height: 688
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    x: 383.5
+    y: 58
+    width: 792
+    height: 560
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1307,10 +1393,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1532, y: 769}
 =======
   m_TargetSize: {x: 742, y: 667}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+  m_TargetSize: {x: 1584, y: 1078}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 0
@@ -1326,6 +1416,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -395
@@ -1336,6 +1427,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -333.5
     m_VBaseRangeMax: 333.5
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    m_HBaseRangeMin: -396
+    m_HBaseRangeMax: 396
+    m_VBaseRangeMin: -269.5
+    m_VBaseRangeMax: 269.5
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1360,17 +1457,22 @@ MonoBehaviour:
     m_Translation: {x: 766, y: 395}
 =======
       y: 21
-      width: 742
-      height: 667
+      width: 792
+      height: 539
     m_Scale: {x: 1, y: 1}
+<<<<<<< HEAD
     m_Translation: {x: 371, y: 333.5}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    m_Translation: {x: 396, y: 269.5}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -766
       y: -395
@@ -1388,15 +1490,28 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 742, y: 688}
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+      x: -396
+      y: -269.5
+      width: 792
+      height: 539
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1584, y: 1120}
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &17
 =======
 --- !u!114 &22
+=======
+--- !u!114 &18
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1412,14 +1527,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 339
-    y: 767
-    width: 1227
-    height: 272
+    x: 190.5
+    y: 639
+    width: 985
+    height: 220
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1437,22 +1552,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/MobileBlur
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/MobileBlur
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/rickywinarko/Documents/GitHub/Eyedylic/Eyedylic Prototype
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 80b00000
-    m_LastClickedID: 45184
-    m_ExpandedIDs: 00000000ba84000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 175}
+    m_SelectedIDs: c0a30100
+    m_LastClickedID: 107456
+    m_ExpandedIDs: 00000000b0a30100c4a301000aa401000ca401000ea4010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1480,7 +1595,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba840000
+    m_ExpandedIDs: 00000000b0a30100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1536,8 +1651,12 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
+<<<<<<< HEAD
 --- !u!114 &23
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+--- !u!114 &19
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1553,10 +1672,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 0
     y: 650
@@ -1567,11 +1687,17 @@ MonoBehaviour:
     y: 767
     width: 1227
     height: 272
+=======
+    x: 190.5
+    y: 639
+    width: 985
+    height: 220
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &24
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1587,15 +1713,20 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1568
+    x: 1177.5
     y: 58
+<<<<<<< HEAD
     width: 351
     height: 981
 >>>>>>> parent of 985ac8c4 (phrasing issue resolved)
+=======
+    width: 261.5
+    height: 801
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

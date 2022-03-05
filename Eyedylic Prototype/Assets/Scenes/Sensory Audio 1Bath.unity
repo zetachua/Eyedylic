@@ -2958,8 +2958,6 @@ RectTransform:
   - {fileID: 28277568}
   - {fileID: 969574978}
   - {fileID: 1728130345}
-  - {fileID: 452966811}
-  - {fileID: 712434866}
   m_Father: {fileID: 3839742614369245283}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2986,6 +2984,9 @@ MonoBehaviour:
   GlaucomaButt: {fileID: 969574980}
   selectColor: {r: 0.8588236, g: 0.4156863, b: 0.50980395, a: 1}
   filterSetObject: {fileID: 1886677088}
+  filterReference: {fileID: 3064489754768934493, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  RightHand: {fileID: 1331430837}
+  LeftHand: {fileID: 1259689897}
   SettingMenuObject: {fileID: 1852630298}
 --- !u!114 &325046167
 MonoBehaviour:
@@ -4168,6 +4169,7 @@ MonoBehaviour:
   Canvas: {fileID: 451017852}
   DialogueAudio: {fileID: 511020016}
   EndDialogueAudio: 0
+<<<<<<< HEAD
 --- !u!1 &452966810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4301,6 +4303,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452966810}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 --- !u!1 &463318552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3839742614604999127, guid: b239c250551d6b746a0b66455c06b000, type: 3}
@@ -6207,6 +6211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d9a55cca44a5e459283f196c685a47, type: 3}
+<<<<<<< HEAD
 --- !u!1 &712434865
 GameObject:
   m_ObjectHideFlags: 0
@@ -6340,6 +6345,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712434865}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
 --- !u!1 &713529249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3183590409743447187, guid: 9346665df3ad3493e83713f31386fb50, type: 3}
@@ -6489,7 +6496,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -43, y: 79.000015}
-  m_SizeDelta: {x: 9588, y: 4000}
+  m_SizeDelta: {x: 9588, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758018394
 MonoBehaviour:
@@ -7951,19 +7958,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 878029435}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1852630305}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: ReturnButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &878029435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10132,19 +10127,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1110385637}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1852630305}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: ExitButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1110385637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16554,9 +16537,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1886677090}
   - component: {fileID: 1886677089}
-  - component: {fileID: 1886677091}
   m_Layer: 0
-  m_Name: PlayerManager
+  m_Name: FilterSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16592,23 +16574,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1886677091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886677088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3477cddaa4e0543f7a9618183089257a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightHand: {fileID: 1331430837}
-  LeftHand: {fileID: 1259689897}
-  FilterMenuObject: {fileID: 325046164}
-  PauseMenuObject: {fileID: 1852630298}
-  ControllerReference: {fileID: 3064489754768934493, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1897744542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2e1d16b96013344fb792e7f7716a904, type: 3}
@@ -18740,7 +18705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3839742613540848140, guid: b239c250551d6b746a0b66455c06b000, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 215
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3839742613540848141, guid: b239c250551d6b746a0b66455c06b000, type: 3}
       propertyPath: m_LocalScale.x

@@ -27,12 +27,18 @@ EditorUserSettings:
       value: 0600525e0600510b095d557644775a46174f1d7d7b7c22327c7f4832b5b2323d
       flags: 0
     RecentlyUsedSceneGuid-7:
+<<<<<<< HEAD
       value: 5400015452575d585b0a0f7016775b1612161e782f787566757e1937b4b8613e
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 0504025703065b0f550c5a2612770b44464f40782d2927667f7d1864e7b7303c
       flags: 0
     RecentlyUsedSceneGuid-9:
+=======
+      value: 5753560552065c0f5b0a5e2045725944444f4d7e7c707260747c1b66e4b73039
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+>>>>>>> parent of 4e3a9914 (Edited Main Menu and Filter Menu)
       value: 5457005f55575e0d5b59082348210e444e4f482b7a7e273278281f30e1e33561
       flags: 0
     RecentlyUsedScenePath-0:
