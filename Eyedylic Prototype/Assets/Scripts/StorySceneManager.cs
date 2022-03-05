@@ -22,7 +22,10 @@ public class StorySceneManager : MonoBehaviour
     private CanvasGroup StartPageCanvas;
 
     [SerializeField]
-    private LevelLoader levelLoader;
+    private LevelLoader levelLoader;    
+    
+    [SerializeField]
+    private CanvasGroup FadeInBlackCanvas;
 
     Outline outline;
     Scene scene;
@@ -34,7 +37,7 @@ public class StorySceneManager : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
-        //StartCoroutine(FadeInScene());
+        FadeInScene();
         StartCoroutine(InternalSceneManager());
     }
 
@@ -80,7 +83,6 @@ public class StorySceneManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(3);
-        // levelLoader.FadeToNextScene();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     
 }
@@ -157,12 +159,9 @@ public class StorySceneManager : MonoBehaviour
         return systemVoice;
     }
 
-    IEnumerator FadeInScene()
+    public void FadeInScene()
     {
-        //fadein
-        levelLoader.FadeToNextScene();
-        yield return new WaitForSeconds(5);
-
+        FadeInBlackCanvas.GetComponent<CanvasGroup>().DOFade(0, 4);
     }
 
 }
