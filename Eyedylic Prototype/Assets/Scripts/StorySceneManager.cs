@@ -18,6 +18,7 @@ public class StorySceneManager : MonoBehaviour
     [SerializeField]
     public List<SceneReferences> ToiletSceneList = new List<SceneReferences>();
 
+    [Header("Start Scene UI")]
     [SerializeField]
     private CanvasGroup StartPageCanvas;
 
@@ -25,7 +26,10 @@ public class StorySceneManager : MonoBehaviour
     private LevelLoader levelLoader;    
     
     [SerializeField]
-    private CanvasGroup FadeInBlackCanvas;
+    private CanvasGroup FadeInBlackCanvas;    
+    
+    [SerializeField]
+    private GameObject ChangingSceneCanvas;
 
     Outline outline;
     Scene scene;
@@ -37,7 +41,6 @@ public class StorySceneManager : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene();
-        FadeInScene();
         StartCoroutine(InternalSceneManager());
     }
 
@@ -45,6 +48,8 @@ public class StorySceneManager : MonoBehaviour
     {
 
         //Scene introduction
+        yield return new WaitForSeconds(3);
+        FadeInCanvas();
         StartPageCanvas.alpha = 1;
         yield return new WaitForSeconds(5);
         StartPageCanvas.GetComponent<CanvasGroup>().DOFade(0, 1);
@@ -82,10 +87,15 @@ public class StorySceneManager : MonoBehaviour
             SetCanvasGroupInactive(InternalSceneNumber);
         }
 
+        //Scene Exit
         yield return new WaitForSeconds(3);
+        ChangingSceneCanvas.SetActive(true);
+        yield return new WaitForSeconds(3);
+        FadeOutCanvas();
+        ChangingSceneCanvas.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    
-}
+
+    }
 
     //Set Canvas Active and Handle the Sound
     public void SetCanvasGroupActive(int InternalSceneNumber)
@@ -159,9 +169,16 @@ public class StorySceneManager : MonoBehaviour
         return systemVoice;
     }
 
-    public void FadeInScene()
+    public void FadeInCanvas()
     {
-        FadeInBlackCanvas.GetComponent<CanvasGroup>().DOFade(0, 4);
+        FadeInBlackCanvas.GetComponent<CanvasGroup>().DOFade(0, 3);
     }
+
+    public void FadeOutCanvas()
+    {
+        FadeInBlackCanvas.GetComponent<CanvasGroup>().DOFade(0.5f, 10);
+    }
+
+
 
 }
