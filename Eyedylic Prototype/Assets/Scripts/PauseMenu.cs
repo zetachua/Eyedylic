@@ -8,10 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-
-    public Button DRButt, MacularButt, CataractButt, GlaucomaButt;
     public Color selectColor;
     public GameObject FilterMenuObject;
+    //public Slider SliderObject;
     
 
     public void OpenFilterMenu(){
@@ -28,6 +27,16 @@ public class PauseMenu : MonoBehaviour
     public void ExitButton()
     {
         SceneManager.LoadScene("Main menu");
+    }
+
+    public void ChangeVolume(float value)
+    {
+        AudioSource[] allAudioSource = FindObjectsOfType<AudioSource>();
+        foreach(AudioSource aSource in allAudioSource)
+        {
+            aSource.volume = value;
+        }
+        
     }
 
 
