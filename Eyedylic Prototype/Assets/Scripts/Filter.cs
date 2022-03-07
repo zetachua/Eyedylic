@@ -39,6 +39,8 @@ public class Filter : MonoBehaviour
     public void applyFilter()
     {
         MobilePostProcessingScript.Vignette = false;
+        MobilePostProcessingScript.Bloom = false;
+        MobilePostProcessingScript.BloomAmount = 0f;
             MobilePostProcessingScript.Contrast = 0f;
             MobilePostProcessingScript.Sharpness = 0f;
             MobilePostProcessingScript.Brightness = 0f;
@@ -65,10 +67,12 @@ public class Filter : MonoBehaviour
         {
             MainCamera.GetComponent<MobileBlur>().enabled = true;
             MobileBlurScript.BlurAmount = 0.6f;
+            MobilePostProcessingScript.Bloom = true;
+            MobilePostProcessingScript.BloomAmount = 1.75f;
             MobilePostProcessingScript.Contrast = 0.1f;
-            MobilePostProcessingScript.Brightness = 0.2f;
             MobilePostProcessingScript.Saturation = -0.4f;
             MobilePostProcessingScript.Sharpness = 0.25f;
+
 
             
         }
@@ -78,6 +82,7 @@ public class Filter : MonoBehaviour
         {
             MainCamera.GetComponent<MobileBlur>().enabled = true;
             MobileBlurScript.BlurAmount = 0.1f;
+            MobilePostProcessingScript.ImageFiltering = true;
             MobilePostProcessingScript.Contrast = 0.5f;
             MobilePostProcessingScript.Saturation = -0.1f;
             MobilePostProcessingScript.Sharpness = 0.5f;
