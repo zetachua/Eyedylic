@@ -32,10 +32,12 @@ public class ControlManager : MonoBehaviour
         RightHand.GetComponent<XRInteractorLineVisual>().enabled = ShowMenu;
         if (ShowMenu)
         {
+            Time.timeScale = 0;
             FilterMenuObject.GetComponent<FilterMenu>().OpenFilterMenu();
         }
         else
         {
+            Time.timeScale = 1;
             FilterMenuObject.GetComponent<FilterMenu>().ReturnButton();
             PauseMenuObject.GetComponent<PauseMenu>().ReturnButton();
         }
