@@ -11,8 +11,7 @@ public class FilterMenu : MonoBehaviour
 
     public Button DRButt, MacularButt, CataractButt, GlaucomaButt;
     public Color selectColor;
-    public GameObject filterSetObject;
-    public GameObject SettingMenuObject;
+    public GameObject PlayerManager;
     
 
     void awake()
@@ -52,7 +51,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
-        filterSetObject.GetComponent<Filter>().applyFilter();
+        PlayerManager.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableMacular(){
@@ -64,7 +63,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = selectColor;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = Color.white;
-        filterSetObject.GetComponent<Filter>().applyFilter();
+        PlayerManager.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableCataract(){
@@ -76,7 +75,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = selectColor;
         GlaucomaButt.image.color = Color.white;
-        filterSetObject.GetComponent<Filter>().applyFilter();
+        PlayerManager.GetComponent<Filter>().applyFilter();
     }
 
     public void EnableGlaucoma(){
@@ -88,7 +87,7 @@ public class FilterMenu : MonoBehaviour
         MacularButt.image.color = Color.white;
         CataractButt.image.color = Color.white;
         GlaucomaButt.image.color = selectColor;
-        filterSetObject.GetComponent<Filter>().applyFilter();
+        PlayerManager.GetComponent<Filter>().applyFilter();
     }
 
     
@@ -96,22 +95,12 @@ public class FilterMenu : MonoBehaviour
 
     
     public void OpenSettingMenu(){
-        SettingMenuObject.SetActive(true);
-        gameObject.SetActive(false);
-    }
-
-    
-
-    public void OpenFilterMenu()
-    {
-        gameObject.SetActive(true);
-        
+        PlayerManager.GetComponent<ControlManager>().OpenSettingMenu();
     }
 
     public void ReturnButton()
     {
-        ControlManager.ShowMenu = false;
-        gameObject.SetActive(false);
+        PlayerManager.GetComponent<ControlManager>().CloseMenu();
     }
 
     public void ExitButton()

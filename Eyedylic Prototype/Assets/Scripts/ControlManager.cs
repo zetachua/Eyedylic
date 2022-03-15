@@ -33,14 +33,31 @@ public class ControlManager : MonoBehaviour
         if (ShowMenu)
         {
             Time.timeScale = 0;
-            FilterMenuObject.GetComponent<FilterMenu>().OpenFilterMenu();
+            FilterMenuObject.SetActive(true);
         }
         else
         {
             Time.timeScale = 1;
-            FilterMenuObject.GetComponent<FilterMenu>().ReturnButton();
-            PauseMenuObject.GetComponent<PauseMenu>().ReturnButton();
+            FilterMenuObject.SetActive(false);
+            PauseMenuObject.SetActive(false);
         }
+    }
+
+    public void CloseMenu(){
+        ShowMenu = false;
+        Time.timeScale = 1;
+        FilterMenuObject.SetActive(false);
+        PauseMenuObject.SetActive(false);
+    }
+
+    public void OpenSettingMenu(){
+        FilterMenuObject.SetActive(false);
+        PauseMenuObject.SetActive(true);
+    }
+
+    public void OpenFilterMenu(){
+        FilterMenuObject.SetActive(true);
+        PauseMenuObject.SetActive(false);
     }
 
 

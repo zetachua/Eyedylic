@@ -9,19 +9,16 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public Color selectColor;
-    public GameObject FilterMenuObject;
-    //public Slider SliderObject;
+    public GameObject PlayerManager;
     
 
     public void OpenFilterMenu(){
-        FilterMenuObject.SetActive(true);
-        gameObject.SetActive(false);
+        PlayerManager.GetComponent<ControlManager>().OpenFilterMenu();
     }
 
     public void ReturnButton()
     {
-        ControlManager.ShowMenu = false;
-        gameObject.SetActive(false);
+        PlayerManager.GetComponent<ControlManager>().CloseMenu();
     }
 
     public void ExitButton()
