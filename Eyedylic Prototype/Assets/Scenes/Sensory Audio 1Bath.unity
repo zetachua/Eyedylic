@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1026.968, y: 0, z: 215.51}
+  m_LocalPosition: {x: -1026.968, y: 0.8, z: 215.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4131,7 +4131,7 @@ PrefabInstance:
     - target: {fileID: 5709175807262467588, guid: 655f10be6172be64c9b34533b3383752, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b51e9f42bf55ad34081f19e87041c598, type: 3}
+      objectReference: {fileID: 8300000, guid: f2b000a136c4f2746923b318751515c7, type: 3}
     - target: {fileID: 5709175807262467588, guid: 655f10be6172be64c9b34533b3383752, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -20652,7 +20652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nice! Thats just the right temperature. now i can take a bath
+  m_text: Nice! Thats just the right temperature, now i can take a bath.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f0f1e9f6b61e2f47b76925fec6c85c6, type: 2}
   m_sharedMaterial: {fileID: -1456447230258840533, guid: 4f0f1e9f6b61e2f47b76925fec6c85c6, type: 2}
@@ -24208,7 +24208,7 @@ PrefabInstance:
     - target: {fileID: 7656812702799636967, guid: 90a95e468fe29e046aba96493e412aff, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 6c13262221122684e9fc079065afe891, type: 3}
+      objectReference: {fileID: 8300000, guid: 8300eea383ffd1747b1f91c9c813bca3, type: 3}
     - target: {fileID: 7656812702799636967, guid: 90a95e468fe29e046aba96493e412aff, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

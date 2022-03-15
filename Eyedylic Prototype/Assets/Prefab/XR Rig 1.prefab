@@ -7064,10 +7064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c673cebf4416041f28e5480e59bcffe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DRButt: {fileID: 0}
-  MacularButt: {fileID: 0}
-  CataractButt: {fileID: 0}
-  GlaucomaButt: {fileID: 0}
   selectColor: {r: 0, g: 0, b: 0, a: 0}
   FilterMenuObject: {fileID: 2359638183533060365}
 --- !u!1 &2359638185218036362
