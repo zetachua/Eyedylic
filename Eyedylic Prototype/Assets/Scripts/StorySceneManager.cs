@@ -61,7 +61,6 @@ public class StorySceneManager : MonoBehaviour
             switch (InternalSceneNumber)
             {
                 case 0:
-                    // find phone scene
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     PlayTargetAudio(InternalSceneNumber);
@@ -73,13 +72,11 @@ public class StorySceneManager : MonoBehaviour
                     break;
 
                 case 1:
-                    //phone notif scene
                     StartCoroutine(ShowDialogue(SystemVoice(), 0, InternalSceneNumber));
                     yield return new WaitForSeconds(12);
                     break;
 
                 case 2:
-                    // zoom meeting scene
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     break;
@@ -92,8 +89,7 @@ public class StorySceneManager : MonoBehaviour
         ChangingSceneCanvas.SetActive(true);
         yield return new WaitForSeconds(3);
         FadeOutCanvas();
-        ChangingSceneCanvas.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        EndScene();
 
     }
 
@@ -179,6 +175,10 @@ public class StorySceneManager : MonoBehaviour
         FadeInBlackCanvas.GetComponent<CanvasGroup>().DOFade(0.5f, 10);
     }
 
-
+    public void EndScene()
+    {
+        ChangingSceneCanvas.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
 }
