@@ -19,17 +19,10 @@ public class StorySceneManager : MonoBehaviour
     public List<SceneReferences> ToiletSceneList = new List<SceneReferences>();
 
     [Header("Start Scene UI")]
-    [SerializeField]
-    private CanvasGroup StartPageCanvas;
-
-    [SerializeField]
-    private LevelLoader levelLoader;    
-    
-    [SerializeField]
-    private CanvasGroup FadeInBlackCanvas;    
-    
-    [SerializeField]
-    private GameObject ChangingSceneCanvas;
+    [SerializeField] private CanvasGroup StartPageCanvas;  
+    [SerializeField] private CanvasGroup InstructionPageCanvas;  
+    [SerializeField] private CanvasGroup FadeInBlackCanvas;    
+    [SerializeField] private GameObject ChangingSceneCanvas;
 
     Outline outline;
     Scene scene;
@@ -47,25 +40,34 @@ public class StorySceneManager : MonoBehaviour
     IEnumerator InternalSceneManager()
     {
 
-        //Scene introduction
+        //Start Page Canvas
         yield return new WaitForSeconds(3);
         FadeInCanvas();
         StartPageCanvas.alpha = 1;
         yield return new WaitForSeconds(5);
         StartPageCanvas.GetComponent<CanvasGroup>().DOFade(0, 1);
-        yield return new WaitUntil(()=> StartPageCanvas.alpha==0);
 
+        //Instruction Page Canvas
+        yield return new WaitForSeconds(5);
+        InstructionPageCanvas.alpha = 1;
+        yield return new WaitForSeconds(8);
+        InstructionPageCanvas.GetComponent<CanvasGroup>().DOFade(0, 1);
+
+        //Story Scene
+        yield return new WaitUntil(()=> StartPageCanvas.alpha==0);
         int InternalSceneNumber;
         for (InternalSceneNumber = 0; InternalSceneNumber < 3; InternalSceneNumber++)
         {
             switch (InternalSceneNumber)
             {
                 case 0:
+                    // Dialogue 1
                     SetCanvasGroupActive(InternalSceneNumber);
                     yield return new WaitForSeconds(8);
                     PlayTargetAudio(InternalSceneNumber);
 
-                    yield return new WaitForSeconds(5);
+                    //Highlight Object
+                    yield return new WaitForSeconds(15);
                     Highlight(InternalSceneNumber);
                     yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
                     RemoveHighlight();
