@@ -10,19 +10,23 @@ public class ControlManager : MonoBehaviour
 
     public GameObject RightHand;
     public GameObject LeftHand;
+    public GameObject XRRig;
     public static bool ShowMenu = false;
     public GameObject FilterMenuObject;
     public GameObject PauseMenuObject;
-    public InputActionReference ControllerReference = null;
+    public InputActionReference PauseReference = null;
+    public InputActionReference ResetCamReference = null;
 
     private void Awake()
     {
-        ControllerReference.action.started += Pause;
+        PauseReference.action.started += Pause;
+        ResetCamReference.action.started += ResetCam;
     }
 
     private void OnDestroy()
     {
-        ControllerReference.action.started -= Pause;
+        PauseReference.action.started -= Pause;
+        ResetCamReference.action.started -= ResetCam;
     }
 
     private void Pause(InputAction.CallbackContext context)
@@ -58,6 +62,10 @@ public class ControlManager : MonoBehaviour
     public void OpenFilterMenu(){
         FilterMenuObject.SetActive(true);
         PauseMenuObject.SetActive(false);
+    }
+
+    public void ResetCam(InputAction.CallbackContext context){
+         XRRig.transform.rotation = Quaternion.identity;
     }
 
 

@@ -927,13 +927,22 @@
             ]
         },
         {
-            "name": "Pause",
+            "name": "Menu",
             "id": "69611b19-f233-455e-a238-59c75e4e3af4",
             "actions": [
                 {
                     "name": "Settings",
                     "type": "Button",
                     "id": "9bf88cd5-2f23-4b43-8612-c86e0eb58eb1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ResetCam",
+                    "type": "Button",
+                    "id": "831f0e95-c1a5-4ccf-8e06-3fe65485c3e7",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -949,6 +958,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Settings",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15a87dd0-57b6-4af9-8e00-39af5a298a78",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetCam",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
