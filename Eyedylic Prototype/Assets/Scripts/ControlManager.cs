@@ -11,6 +11,7 @@ public class ControlManager : MonoBehaviour
     public GameObject RightHand;
     public GameObject LeftHand;
     public GameObject XRRig;
+    public GameObject InstructionPageCanvas;
     public static bool ShowMenu = false;
     public GameObject FilterMenuObject;
     public GameObject PauseMenuObject;
@@ -72,7 +73,7 @@ public class ControlManager : MonoBehaviour
     }
 
     public void OpenInstructions(InputAction.CallbackContext context){
-        //whatever u want
+        InstructionPageCanvas.SetActive(!InstructionPageCanvas.activeInHierarchy);
     }
 
     // Start is called before the first frame update

@@ -50,8 +50,8 @@ public class StorySceneManager : MonoBehaviour
         //Instruction Page Canvas
         yield return new WaitForSeconds(5);
         InstructionPageCanvas.alpha = 1;
-        yield return new WaitForSeconds(8);
-        InstructionPageCanvas.GetComponent<CanvasGroup>().DOFade(0, 1);
+        yield return new WaitForSeconds(5);
+        InstructionPageCanvas.gameObject.SetActive(false);
 
         //Story Scene
         yield return new WaitUntil(()=> StartPageCanvas.alpha==0);
