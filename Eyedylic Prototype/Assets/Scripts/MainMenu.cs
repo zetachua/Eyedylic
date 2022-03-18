@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public Button DRButt, MacularButt, CataractButt, GlaucomaButt;
     public static bool DRTog, MacularTog, CataractTog, GlaucomaTog;
     public Color selectColor;
+    public GameObject ColorCanvas;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,11 @@ public class MainMenu : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SwitchCanvas(){
+        ColorCanvas.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 
     public void EnableDR(){
