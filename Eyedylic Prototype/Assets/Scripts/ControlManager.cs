@@ -16,17 +16,20 @@ public class ControlManager : MonoBehaviour
     public GameObject PauseMenuObject;
     public InputActionReference PauseReference = null;
     public InputActionReference ResetCamReference = null;
+    public InputActionReference InstructionsReference = null;
 
     private void Awake()
     {
         PauseReference.action.started += Pause;
         ResetCamReference.action.started += ResetCam;
+        InstructionsReference.action.started += OpenInstructions;
     }
 
     private void OnDestroy()
     {
         PauseReference.action.started -= Pause;
         ResetCamReference.action.started -= ResetCam;
+        InstructionsReference.action.started -= OpenInstructions;
     }
 
     private void Pause(InputAction.CallbackContext context)
@@ -68,7 +71,9 @@ public class ControlManager : MonoBehaviour
          XRRig.transform.rotation = Quaternion.identity;
     }
 
-
+    public void OpenInstructions(InputAction.CallbackContext context){
+        //whatever u want
+    }
 
     // Start is called before the first frame update
     void Start()

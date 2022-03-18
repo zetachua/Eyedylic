@@ -947,6 +947,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Instructions",
+                    "type": "Button",
+                    "id": "8f98d6fd-2785-4f32-9530-8fc44784b1ee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -969,6 +978,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ResetCam",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea344de3-9fd9-49e8-beeb-ea63718cf023",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Instructions",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -6952,6 +6952,7 @@ MonoBehaviour:
   PauseMenuObject: {fileID: 2078488704}
   PauseReference: {fileID: 3064489754768934493, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   ResetCamReference: {fileID: 7315821005031316518, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  InstructionsReference: {fileID: -5809352417600579505, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &1679034439
 MonoBehaviour:
   m_ObjectHideFlags: 0
