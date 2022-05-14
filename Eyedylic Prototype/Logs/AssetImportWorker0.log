@@ -2,29 +2,29 @@ Unity Editor version:    2021.2.9f1 (921b45a28ab6)
 Branch:                  2021.2/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.1 (Build 21C52)
-Darwin version:          21.2.0
-Architecture:            x86_64
-Running under Rosetta:   YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
 Available memory:        16384 MB
 Using pre-set license
 Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype
+/Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51917
-Successfully changed project path to: /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype
-/Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype
+51330
+Successfully changed project path to: /Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype
+/Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/zetachua/Documents/GitHub/Eyedylic/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 171.56 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 6.94 ms.
+Refreshing native plugins compatible for Editor in 135.58 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.75 ms.
 Initialize engine version: 2021.2.9f1 (921b45a28ab6)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 Pro (high power)
 Metal devices available: 1
@@ -67,153 +67,95 @@ Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56405
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001063 seconds.
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001554 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 166.88 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 130.53 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.856 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1857ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1519ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (425ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
+			SetupTypeCache (85ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (1088ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (647ms)
-				ProcessInitializeOnLoadMethodAttributes (221ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004378 seconds.
+Registered in 0.004680 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ashutoshtrivedi/Documents/GitHub/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 165.37 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
+Refreshing native plugins compatible for Editor in 127.48 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  3.445 seconds
+- Completed reload, in  1.013 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3449ms)
-		BeginReloadAssembly (291ms)
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (2857ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (1894ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (490ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (166ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (1385ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launching external process: /Applications/Unity/Hub/Editor/2021.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
-Unloading 5031 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (472.9 KB). Loaded Objects now: 5457.
-Memory consumption went from 307.7 MB to 307.2 MB.
-Total: 4.334958 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.175208 ms MarkObjects: 3.479166 ms  DeleteObjects: 0.364916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004979 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.083 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3085ms)
-		BeginReloadAssembly (293ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2495ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1598ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (1278ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
-Unloading 4904 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (449.1 KB). Loaded Objects now: 5460.
-Memory consumption went from 296.7 MB to 296.3 MB.
-Total: 3.831125 ms (FindLiveObjects: 0.273875 ms CreateObjectMapping: 0.169000 ms MarkObjects: 3.094666 ms  DeleteObjects: 0.292416 ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 5034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (473.1 KB). Loaded Objects now: 5460.
+Memory consumption went from 308.4 MB to 307.9 MB.
+Total: 3.138708 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.071541 ms MarkObjects: 2.654709 ms  DeleteObjects: 0.234042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -227,65 +169,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9845.924648 seconds.
-  path: Assets/Scenes/Sensory Audio 2Toilet.unity
-  artifactKey: Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sensory Audio 2Toilet.unity using Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8187694b0db03f8bd04dc3ec8899d95c') in 0.034733 seconds 
+  Time since last request: 86879.732608 seconds.
+  path: Assets/Scenes/hover sound.prefab
+  artifactKey: Guid(21c414fbe06a2974b8091565a331d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/hover sound.prefab using Guid(21c414fbe06a2974b8091565a331d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb91fa3ec274e5613c87cf21a83b3f3d') in 0.830940 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005090 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/zetachua/Documents/GitHub/Eyedylic/Eyedylic Prototype/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.079 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3082ms)
-		BeginReloadAssembly (295ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (49ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2491ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (1588ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (1256ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
-Unloading 4904 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (449.0 KB). Loaded Objects now: 5463.
-Memory consumption went from 297.4 MB to 296.9 MB.
-Total: 3.710209 ms (FindLiveObjects: 0.286166 ms CreateObjectMapping: 0.169167 ms MarkObjects: 2.947875 ms  DeleteObjects: 0.306167 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8.705157 seconds.
+  path: Assets/Scenes/Sensory Audio 2Toilet 1.unity
+  artifactKey: Guid(a0d76c29b5ee146b38079481cbe6654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 2Toilet 1.unity using Guid(a0d76c29b5ee146b38079481cbe6654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e3279e14b833326adb4dc26bae12fe') in 0.002012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.154121 seconds.
+  path: Assets/Scenes/Sensory Audio 3Living Room.unity
+  artifactKey: Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 3Living Room.unity using Guid(dc09c5c64dee24d70936ff8935652e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8cd4322d07d0ffde179fe72e48761d') in 0.001312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.087480 seconds.
+  path: Assets/Scenes/Sensory Audio 3Living Room 1.unity
+  artifactKey: Guid(34f709fb850d747a08ce693f5212a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 3Living Room 1.unity using Guid(34f709fb850d747a08ce693f5212a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077eda6d6f6b02dc0b9fba94d5dd1be7') in 0.001235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.099350 seconds.
+  path: Assets/Scenes/Sensory Audio 4Rain.unity
+  artifactKey: Guid(34f709fb850d747a08ce693f5212a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 4Rain.unity using Guid(34f709fb850d747a08ce693f5212a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abb4a04eb41533c17c3b10949855ce2') in 0.001379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.859613 seconds.
+  path: Assets/Scenes/Sensory Audio 4Rain 1.unity
+  artifactKey: Guid(13ce5a307a95f445db8141d80777916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 4Rain 1.unity using Guid(13ce5a307a95f445db8141d80777916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bb5e4a5406e5d32bc4c8f79f314b27') in 0.001953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.907407 seconds.
+  path: Assets/Scenes/Sensory Audio 5Zoom.unity
+  artifactKey: Guid(13ce5a307a95f445db8141d80777916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 5Zoom.unity using Guid(13ce5a307a95f445db8141d80777916a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc0bae151139a17924c54d2b56766c7') in 0.001291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.993340 seconds.
+  path: Assets/Scenes/Sensory Audio 1Bath 1.unity
+  artifactKey: Guid(7e00e3421f3674c4d8fce2c8f5cea3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 1Bath 1.unity using Guid(7e00e3421f3674c4d8fce2c8f5cea3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5173ec2979abdf13d6facfe4541cde50') in 0.004877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.038681 seconds.
+  path: Assets/Scenes/Sensory Audio 3Living Room.unity
+  artifactKey: Guid(7e00e3421f3674c4d8fce2c8f5cea3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 3Living Room.unity using Guid(7e00e3421f3674c4d8fce2c8f5cea3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc78a3aaf42379134c890f77307cbdaf') in 0.001022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.047481 seconds.
+  path: Assets/Scenes/Sensory Audio 2Toilet 1.unity
+  artifactKey: Guid(1b3bce2928392417a89a326f3885877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 2Toilet 1.unity using Guid(1b3bce2928392417a89a326f3885877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edce21bc41ea6c4d0e7a1bb0cc98b82') in 0.001185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.457049 seconds.
+  path: Assets/Scenes/Sensory Audio 4Rain.unity
+  artifactKey: Guid(1b3bce2928392417a89a326f3885877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 4Rain.unity using Guid(1b3bce2928392417a89a326f3885877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6e5804fc654bbed3ecab29e5e6a5bd') in 0.001034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.090470 seconds.
+  path: Assets/Scenes/Sensory Audio 2Toilet 1.unity
+  artifactKey: Guid(644d8c3b3ea594a1a85b528298292186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 2Toilet 1.unity using Guid(644d8c3b3ea594a1a85b528298292186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4528205c04318f95176281eaee6bc243') in 0.000917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.272542 seconds.
+  path: Assets/Scenes/Sensory Audio 5Zoom.unity
+  artifactKey: Guid(644d8c3b3ea594a1a85b528298292186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sensory Audio 5Zoom.unity using Guid(644d8c3b3ea594a1a85b528298292186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef89559d04d977618bfcba500248394') in 0.000876 seconds 

@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Sensory Audio 2Toilet.unity
     guid: dc09c5c64dee24d70936ff8935652e29
   - enabled: 1
+    path: Assets/Scenes/Sensory Audio 3Living Room.unity
+    guid: 7e00e3421f3674c4d8fce2c8f5cea3cd
+  - enabled: 1
+    path: Assets/Scenes/Sensory Audio 4Rain.unity
+    guid: 1b3bce2928392417a89a326f3885877e
+  - enabled: 1
+    path: Assets/Scenes/Sensory Audio 5Zoom.unity
+    guid: 644d8c3b3ea594a1a85b528298292186
+  - enabled: 1
     path: Assets/Scenes/End Page.unity
     guid: 214e3a61bb5cbda4583b0604441869b9
   m_configObjects:
