@@ -13,8 +13,16 @@ public class ControlManager : MonoBehaviour
     public GameObject XRRig;
     public GameObject InstructionPageCanvas;
     public static bool ShowMenu = false;
-    public GameObject FilterMenuObject;
-    public GameObject PauseMenuObject;
+
+    GameObject FilterMenuObject;
+    GameObject PauseMenuObject;
+
+    public GameObject NormalFilterMenuObject;
+    public GameObject NormalPauseMenuObject;
+
+    public GameObject ContrastFilterMenuObject;
+    public GameObject ContrastPauseMenuObject;
+
     public InputActionReference PauseReference = null;
     public InputActionReference ResetCamReference = null;
     public InputActionReference InstructionsReference = null;
@@ -79,7 +87,16 @@ public class ControlManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(MainMenu.contrastSetting){
+            FilterMenuObject = ContrastFilterMenuObject;
+            PauseMenuObject = ContrastPauseMenuObject;
+        }
+
+        else{
+            FilterMenuObject = NormalFilterMenuObject;
+            PauseMenuObject = NormalPauseMenuObject;
+        }
+        //OpenFilterMenu();
     }
 
     // Update is called once per frame
