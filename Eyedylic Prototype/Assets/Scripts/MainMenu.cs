@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public static bool DRTog, MacularTog, CataractTog, GlaucomaTog;
     public Color selectColor;
     public GameObject ColorCanvas;
+    public static bool contrastSetting = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,14 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void SwitchCanvas(){
+    public void SwitchCanvasNormal(){
+        contrastSetting = false;
+        ColorCanvas.SetActive(true);
+        this.gameObject.SetActive(false);
+    }
+
+    public void SwitchCanvasContrast(){
+        contrastSetting = true;
         ColorCanvas.SetActive(true);
         this.gameObject.SetActive(false);
     }
