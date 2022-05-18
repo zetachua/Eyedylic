@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using UnityEngine.Assertions;
 
 
 public class StorySceneManager : MonoBehaviour
@@ -24,12 +25,14 @@ public class StorySceneManager : MonoBehaviour
     [SerializeField] private CanvasGroup FadeInBlackCanvas;    
     [SerializeField] private GameObject ChangingSceneCanvas;
 
+    [Header("Others")]
+    [SerializeField] private TargetTriggerVolume targetTriggerVolume;
     Outline outline;
     Scene scene;
     bool playTargetAudio = false;
     public GameObject dialoguePrefab;
     private string systemVoice;
-    public bool playSystemSound = false;
+    public bool playSystemSound;
 
     void Start()
     {
@@ -69,13 +72,18 @@ public class StorySceneManager : MonoBehaviour
                     //Highlight Object
                     yield return new WaitForSeconds(15);
                     Highlight(InternalSceneNumber);
-                    yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf);
+                    yield return new WaitUntil(() => !ToiletSceneList[InternalSceneNumber].TargetAudio.activeSelf 
+                                                || targetTriggerVolume.isTargetObjectInteracted);
                     RemoveHighlight();
                     break;
 
                 case 1:
-                    StartCoroutine(ShowDialogue(SystemVoice(), 0, InternalSceneNumber));
-                    yield return new WaitForSeconds(12);
+                    bool isSystemAudioNull = ToiletSceneList[InternalSceneNumber].DialogueAudio == null;
+                    if (!isSystemAudioNull)
+                    {
+                        StartCoroutine(ShowDialogue(SystemVoice(), 0, InternalSceneNumber));
+                        yield return new WaitForSeconds(12);
+                    }
                     break;
 
                 case 2:
