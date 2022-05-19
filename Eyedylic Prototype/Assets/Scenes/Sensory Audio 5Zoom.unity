@@ -6223,6 +6223,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d5c376ba03000429491b93a9bc68cf8d, type: 3}
   m_PrefabInstance: {fileID: 1460999627}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1473131705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8926118238184420528, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+  m_PrefabInstance: {fileID: 2078488703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1496064514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6934,8 +6939,10 @@ MonoBehaviour:
   LeftHand: {fileID: 2078488706}
   XRRig: {fileID: 2078488708}
   InstructionPageCanvas: {fileID: 627951455}
-  FilterMenuObject: {fileID: 2078488705}
-  PauseMenuObject: {fileID: 2078488704}
+  NormalFilterMenuObject: {fileID: 2078488705}
+  NormalPauseMenuObject: {fileID: 2078488704}
+  ContrastFilterMenuObject: {fileID: 2090242780}
+  ContrastPauseMenuObject: {fileID: 1473131705}
   PauseReference: {fileID: 3064489754768934493, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   ResetCamReference: {fileID: 7315821005031316518, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   InstructionsReference: {fileID: -5809352417600579505, guid: c348712bda248c246b8c49b3db54643f, type: 3}
@@ -8461,6 +8468,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1822067147096095034, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+      propertyPath: PlayerManager
+      value: 
+      objectReference: {fileID: 1679034437}
     - target: {fileID: 5741409983953454184, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: PlayerManager
       value: 
@@ -8530,6 +8541,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5741409985747644127, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+      propertyPath: PlayerManager
+      value: 
+      objectReference: {fileID: 1679034437}
+    - target: {fileID: 7218789477710453887, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: PlayerManager
       value: 
       objectReference: {fileID: 1679034437}
@@ -8633,6 +8648,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d5c376ba03000429491b93a9bc68cf8d, type: 3}
   m_PrefabInstance: {fileID: 2084509309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2090242780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6595572254299127065, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+  m_PrefabInstance: {fileID: 2078488703}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2096937522 stripped
 GameObject:
