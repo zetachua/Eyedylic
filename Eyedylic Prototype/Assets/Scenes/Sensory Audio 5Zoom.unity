@@ -8046,7 +8046,7 @@ GameObject:
   - component: {fileID: 1996532850}
   - component: {fileID: 1996532849}
   - component: {fileID: 1996532848}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: '[TargetObject]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8530,11 +8530,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741409985456291857, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1035.684
+      value: -1035.399
       objectReference: {fileID: 0}
     - target: {fileID: 5741409985456291857, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.767
       objectReference: {fileID: 0}
     - target: {fileID: 5741409985456291857, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8572,9 +8572,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5741409985468261564, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5741409985468261565, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741409985558019812, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5741409985747644127, guid: 577721d8a0cce4d6fa63a79b1d99e686, type: 3}
       propertyPath: PlayerManager
